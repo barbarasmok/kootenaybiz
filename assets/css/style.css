@@ -4043,6 +4043,7 @@ figure {
 
 .section-gap-top__with-text {
 	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
 .object-fit__cover {
