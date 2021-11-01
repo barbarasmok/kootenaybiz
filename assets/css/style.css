@@ -6792,6 +6792,7 @@ input[type="radio"]+label::after {
 }
 .post-cat-group span {
 	font-size: 1rem;
+	margin-left: 1rem;
 }
 
 @media (max-width: 991px) {
@@ -6920,7 +6921,7 @@ input[type="radio"]+label::after {
 	}
 
 	.post-block__mid>a {
-		margin: 0 0 3rem;
+		margin: 0 0 1rem;
 	}
 }
 
@@ -6932,8 +6933,8 @@ input[type="radio"]+label::after {
 
 @media (max-width: 991px) {
 	.post-block__mid .axil-post-title {
-		font-size: 1.6rem;
-		line-height: 2.6rem;
+		font-size: 2.2rem;
+		line-height: 3.2rem;
 		margin-bottom: 1rem;
 	}
 }
@@ -9638,7 +9639,7 @@ ul.gallery img {
 
 /*--Footer--*/
 .page-footer {
-	padding: 6rem 0;
+	padding: 3rem;
 }
 
 .footer-widget {
