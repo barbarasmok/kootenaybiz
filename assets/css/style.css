@@ -4029,21 +4029,21 @@ figure {
 
 /*--Helper clasess--*/
 .section-gap {
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 }
 
 .section-gap-top {
-	padding-top: 1rem;
+	padding-top: 0.5rem;
 }
 
 .section-gap-bottom {
-	padding-bottom: 1rem;
+	padding-bottom: 0.5rem;
 }
 
 .section-gap-top__with-text {
-	padding-top: 3rem;
-	padding-bottom: 3rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 .object-fit__cover {
@@ -4756,8 +4756,8 @@ p.small {
 	}
 
 	p.mid {
-		font-size: 1.4rem;
-		line-height: 2.4rem;
+		font-size: 1.2rem;
+		line-height: 2rem;
 	}
 
 	p.small {
@@ -6782,7 +6782,7 @@ input[type="radio"]+label::after {
 	margin-bottom: 1.5rem;
 }
 .post-block .axil-post-title-sm {
-	font-size: rem;
+	font-size: 1.6rem;
 	line-height: 2.8rem;
 	margin-bottom: 1.5rem;
 }
@@ -6804,7 +6804,7 @@ input[type="radio"]+label::after {
 	.post-block .axil-post-title-sm {
 		font-size: 2.2rem;
 		line-height: 3.2rem;
-		margin-bottom: 1rem;
+		margin-bottom: 0rem;
 	}
 
 	.axil-post-title-sm {
@@ -6911,8 +6911,8 @@ input[type="radio"]+label::after {
 }
 
 .post-block__small .post-metas ul {
-	font-size: 1.2rem;
-	line-height: 1.8rem;
+	font-size: 1rem;
+	line-height: 1.2rem;
 }
 
 @media (max-width: 767px) {
@@ -7020,13 +7020,13 @@ input[type="radio"]+label::after {
 	font-size: 1.1rem;
 	line-height: 1.4rem;
 	font-weight: var(--s-bold);
-	margin: 0.5rem;
+	margin-bottom: 0.5rem;
 	letter-spacing: 0.1rem;
 }
 
 .post-metas ul {
 	font-family: var(--primary-font);
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	line-height: 2.1rem;
 	color: var(--grey-dark-four);
 	font-weight: var(--p-light);
@@ -7035,7 +7035,7 @@ input[type="radio"]+label::after {
 
 @media (max-width: 991px) {
 	.post-metas ul {
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 }
 
@@ -7133,21 +7133,40 @@ input[type="radio"]+label::after {
 .axil-latest-post .axil-post-title {
 	font-size: 2.8rem;
 	line-height: 1.4;
-	margin-bottom: 0.5rem;
+	margin-top:1rem;
+	margin-bottom: 1rem;
 }
 .axil-latest-post .axil-post-title-sm {
-	font-size: 2.2rem;
+	font-size: 2rem;
 	line-height: 1.4;
+}
+
+.post-block .axil-post-title {
+	font-size: 2rem;
+	line-height: 1.4;
+}
+
+@media (min-width: 728px) {
+	.axil-latest-post .axil-post-title-sm {
+		font-size: 1.2rem;
+		line-height: 1.3;
+	}
+
+	.post-block .axil-post-title {
+		font-size: 1.2rem;
+		line-height: 1.3;
+	}
+
+	.axil-title {
+		font-size: 2rem;
+		line-height: 1.3;
+	}
 }
 
 @media (max-width: 991px) {
 	.axil-latest-post .axil-post-title {
-		font-size: 2.2rem;
-		line-height: 3.2rem;
-	}
-	.axil-latest-post .axil-post-title-sm {
-		font-size: 2.2rem;
-		line-height: 3.2rem;
+		font-size: 2.3rem;
+		line-height: 3rem;
 	}
 	.post-cat {
 		font-size: 1rem;
@@ -7162,6 +7181,32 @@ input[type="radio"]+label::after {
 		left: 0;
 		bottom: 1rem;
 	}
+}
+
+@media (min-width: 1028px) {
+	.axil-latest-post .axil-post-title-sm {
+		font-size: 1.8rem;
+		line-height: 1.4;
+	}
+
+	.post-block .axil-post-title {
+		font-size: 1.8rem;
+		line-height: 1.4;
+		margin-bottom: 0.5rem;
+	}
+
+	.axil-latest-post .axil-post-title {
+		font-size: 3rem;
+		line-height: 1.4;
+	}
+
+	.post-block .axil-post-title-sm {
+		margin-bottom: 0.5rem;
+	}
+	.axil-title {
+		font-size: 3rem;
+		line-height: 4.2rem;
+	}	
 }
 
 .axil-latest-post p {
