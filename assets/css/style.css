@@ -8891,7 +8891,7 @@ blockquote p::before,
 .about-author h3 {
 	font-size: 1.8rem;
 	line-height: 3rem;
-	margin-bottom: 1.5rem;
+	margin-bottom: 0.5rem;
 }
 
 .about-author a img {
@@ -9761,7 +9761,7 @@ ul.gallery img {
 
 .footer-widget .footer-nav {
 	font-family: var(--secondary-font);
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	line-height: 3rem;
 	color: var(--grey-light-one);
 	padding-left: 0;
