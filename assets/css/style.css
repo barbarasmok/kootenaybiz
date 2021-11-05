@@ -6941,7 +6941,7 @@ input[type="radio"]+label::after {
 }
 
 .post-block__mid p {
-	margin-bottom: 2rem;
+	margin-bottom:0.5rem;
 }
 
 .post-block__mid img {
@@ -6950,7 +6950,7 @@ input[type="radio"]+label::after {
 
 @media (max-width: 991px) {
 	.post-block__mid p {
-		margin-bottom: 1rem;
+		margin-bottom: 0.5rem;
 	}
 	.post-block__mid img {
 		max-width: 18rem;
