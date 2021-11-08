@@ -3811,7 +3811,7 @@ a:hover {
 	margin-bottom: 0.5rem; 
 	font-weight: bold;
 	color: var(--color-blue-two);
-	font-family: var(--secondary-font);
+	font-family: 'Merriweather', sans-serif;
 }
 
 .sponsoredHeading:hover {
