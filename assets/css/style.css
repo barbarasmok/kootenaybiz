@@ -4749,6 +4749,13 @@ p.small {
 	color: var(--grey-dark-four);
 }
 
+li.small {
+	font-size: 1.3rem;
+	line-height: 1.5rem;
+	margin-top:10px;
+	color: var(--grey-dark-four);
+}
+
 @media (max-width: 991px) {
 	p {
 		font-size: 16px;
@@ -8774,9 +8781,9 @@ article li {
 
 figcaption {
 	font-family: var(--secondary-font);
-	font-size: 1.6rem;
-	line-height: 2.8rem;
-	color: var(--grey-dark-three);
+	font-size: 1.3rem;
+	line-height: 2rem;
+	color: var(--grey-dark-four);
 	margin: 2rem 0 0;
 }
 
