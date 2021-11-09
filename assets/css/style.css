@@ -3846,6 +3846,9 @@ figure {
 		width: 100%;
 		height: auto;
 	}
+	.underline {
+		width: 300px;
+	}
 }
 
 .img-container {
@@ -3861,6 +3864,11 @@ figure {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
+}
+
+.underline {
+	border-bottom: solid 4px var(--primary-color);
+	width: 230px;
 }
 
 .rotate-txt a {
@@ -3915,6 +3923,9 @@ figure {
 
 	.rotate-txt li:hover>a::after {
 		bottom: 0;
+	}
+	.underline {
+		width: 310px;
 	}
 }
 
@@ -4646,6 +4657,10 @@ h6,
 h1,
 .h1 {
 	font-size: 4.2rem;
+}
+
+h5 {
+	color: var(--primary-color);
 }
 
 @media (max-width: 991px) {
