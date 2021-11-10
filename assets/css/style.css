@@ -6693,7 +6693,7 @@ input[type="radio"]+label::after {
 	box-shadow: var(--shadow-dark);
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 728px) {
 	.navbar.bg-white .submenu {
 		background: transparent;
 		-webkit-box-shadow: none;
