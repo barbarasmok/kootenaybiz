@@ -9019,11 +9019,14 @@ figcaption {
 	font-family: var(--secondary-font);
 	font-style: italic;
 	line-height: 1.6;
-	margin: 2rem left;
 	max-width: 100%;
 	padding: 4.6875rem 1.875rem 1.875rem 4.6875rem;
 	position: relative;
 	width: 100%;
+	margin-bottom: 3rem;
+	margin-top:2rem;
+	margin-left: 0;
+
 }
 
 .blockquote:before {
