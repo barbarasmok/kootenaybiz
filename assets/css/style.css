@@ -3811,7 +3811,7 @@ a:hover {
 	margin-bottom: 0.5rem; 
 	font-weight: bold;
 	color: var(--color-blue-two);
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Aleo', serif;
 }
 
 .sponsoredHeading:hover {
@@ -5893,11 +5893,11 @@ input[type="radio"]+label::after {
 	left: -6.4rem;
 }
 .post-details-sponsors p {
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Aleo', serif;
 }
 
 .post-details-sponsors ul {
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Aleo', serif;
 }
 
 @media (max-width: 1199px) {
@@ -8941,7 +8941,7 @@ article li {
 .single-blog-wrapper-sponsors {
 	margin: 0;
 	padding: 0;
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Aleo', serif;
 }
 
 .post-details h3 {
@@ -8954,7 +8954,7 @@ article li {
 	font-size: 2.4rem;
 	line-height: 3.6rem;
 	margin: 5rem 0 3rem;
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Aleo', serif;
 }
 
 
@@ -8983,7 +8983,7 @@ article li {
 
 .axil-post-title-sponsors {
 	font-size: 3.6rem;
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Aleo', serif;
 }
 
 
