@@ -9779,8 +9779,8 @@ ul.gallery img {
 }
 
 .side-nav .side-navigation li {
-	font-size: 3.6rem;
-	line-height: 5rem;
+	font-size: 3rem;
+	line-height: 3rem;
 	color: var(--grey-dark-one);
 	font-weight: var(--p-semi-bold);
 	margin-bottom: 3rem;
