@@ -5491,6 +5491,27 @@ select {
 	transition: all 0.5s;
 }
 
+#select-option {
+	display: block;
+	width: 100%;
+	height: auto;
+	border: none;
+	background: transparent;
+	font-family: var(--secondary-font);
+	font-size: 1.6rem;
+	line-height: 3rem;
+	color: var(--grey-dark-one);
+	padding: 0.9rem 2rem;
+	border-radius: 0;
+	border: 0.2rem solid var(--grey-light-one);
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
@@ -5498,6 +5519,12 @@ input[type="number"]:focus,
 input[type="file"]:focus,
 textarea:focus,
 select:focus {
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#select-option {
 	outline: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
