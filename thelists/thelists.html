@@ -1,644 +1,1198 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="zxx">
+<!--<![endif]-->
+
 <head>
+	<!-- Basic metas
+    	======================================== -->
 	<meta charset="utf-8">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-	<title>The Lists - KootenayBiz</title>
-
-	<!-- Standard Favicon -->
-	<link rel="icon" type="image/x-icon" href="../images/favicon.svg"/>
+	<meta name="author" content="">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<!-- Mobile specific metas
+    	======================================== -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
-	<!-- Library - Google Font Familys -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap" rel="stylesheet">	
-	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-	
-	<!-- Library -->
-	<link href="../css/lib.css" rel="stylesheet">
-	
-	<!-- Custom - Common CSS -->
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-	<link rel="stylesheet" href="../css/rtl.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="../style.css">
+	<!-- Page Title
+    	======================================== -->
+	<title>KootenayBiz - The Lists</title>
+	<!-- links for favicon
+    	======================================== -->
+	<link rel="apple-touch-icon" sizes="57x57" href="../assets/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="../assets/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../assets/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="../assets/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../assets/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="../assets/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../assets/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="../assets/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../assets/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="../assets/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="../assets/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Icon fonts
+    	======================================== -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,500i,700,700i,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Aleo&family=Crete+Round&family=Slabo+27px&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="../assets/css/fontawesome-all.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/iconfont.css">
+	<!-- css links
+    	======================================== -->
+	<!-- Bootstrap link -->
+	<link rel="stylesheet" type="text/css" href="../assets/css/vendor/bootstrap.min.css">
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="../assets/css/vendor/owl.carousel.min.css">
+	<!-- Magnific popup -->
+	<link rel="stylesheet" type="text/css" href="../assets/css/vendor/magnific-popup.css">
+	<!-- Animate css -->
+	<link rel="stylesheet" type="text/css" href="../assets/css/vendor/animate.css">
 
-	<!--[if lt IE 9]>
-		<script src="js/html5/respond.min.js"></script>
-    <![endif]-->
-	
+	<!-- Custom css -->
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 </head>
 
-<body data-offset="200" data-spy="scroll" data-target=".ownavigation">	
-	<!-- Header Section -->
-	<header class="container-fluid no-left-padding no-right-padding header_s header-fix header_s7">
-		<!-- Container -->
-		<div class="container">	
-			<!-- Menu Block -->
-			<div class="container-fluid no-left-padding no-right-padding menu-block">
-				<nav class="navbar ownavigation navbar-expand-lg">
-					<div class="d-flex col-lg-2">
-						<a class="navbar-brand" href="../index.html" title="Logo"><img style="max-width: 140%;" src="../images/kootenaybiz_logo_NEW.png"></a>
-						<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar7" aria-controls="navbar7" aria-expanded="false" aria-label="Toggle navigation">
-							<i class="fa fa-bars"></i>
-						</button>
+<body>
+	<!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+	<!-- Main contents
+	================================================ -->
+	<div class="main-content">
+		<div class="side-nav">
+			<div class="side-nav-inner nicescroll-container">
+				<form action="#" class="side-nav-search-form">
+					<div class="form-group search-field">
+						<input type="text" class="search-field" name="search-field" placeholder="Search...">
+						<button class="side-nav-search-btn"><i class="fas fa-search"></i></button>
 					</div>
-					<div class="collapse navbar-collapse col-lg-9" id="navbar7">
-						<ul class="navbar-nav">
-							<li class="dropdown">
-								<i class="ddl-switch fa fa-angle-down"></i>
-								<a class="nav-link dropdown-toggle" title="Home" href="../communities/communities.html">Communities</a>
-								<ul class="dropdown-menu" style="margin-top:26px;">
-									<li class="dropdown">
-										<i class="ddl-switch fa fa-angle-down"></i>
-										<a class="dropdown-item dropdown-toggle" href="#" title="Home 2">East Kootenay</a>
-										<ul class="dropdown-menu" style="margin-top:26px;">
-											<li><a class="dropdown-item" href="#" title="Home 2">Canal Flats</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 2">Cranbrook</a></li>
-											<li><a class="dropdown-item" href="../communities/creston.html" title="Home 3">Creston</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 4">Elkford</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 5">Fairmont Hot Springs</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 6">Fernie</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 7">Golden</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 8">Grand Forks</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 9">Invermere</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 10">Kimberley</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 11">Sparwood</a></li>
-										</ul>
-									</li>
-									<li class="dropdown">
-										<i class="ddl-switch fa fa-angle-down"></i>
-										<a class="dropdown-item dropdown-toggle" href="#" title="Home 2">West Kootenay</a>
-										<ul class="dropdown-menu" style="margin-top:26px;">
-											<li><a class="dropdown-item" href="#" title="Home 2">Ainsworth Hot Springs</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 3">Castlegar</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 4">Christina Lake</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 5">Kaslo</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 6">Nelson</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 7">New Denver</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 8">Radium Hot Springs</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 9">Revelstoke</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 10">Riondel</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 11">Rossland</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 11">Salmo</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 11">Slocan</a></li>
-											<li><a class="dropdown-item" href="#" title="Home 11">Trail</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<i class="ddl-switch fa fa-angle-down"></i>
-								<a class="nav-link dropdown-toggle" title="Pages" href="../industries/industries.html">Industries</a>
-								<ul class="dropdown-menu" style="margin-top:26px;">
-									<li><a class="dropdown-item" href="../industries/industry.html">Developments & Real Estate</a></li>
-									<li><a class="dropdown-item" href="#">Education</a></li>
-									<li><a class="dropdown-item" href="#">Sustainability</a></li>
-									<li><a class="dropdown-item" href="#">Natural Resources</a></li>
-									<li><a class="dropdown-item" href="#">Health & Wellness</a></li>
-									<li><a class="dropdown-item" href="#">Tourism & Culture</a></li>
-									<li><a class="dropdown-item" href="#">Technology</a></li>
-									<li><a class="dropdown-item" href="#">First Nations</a></li>
-								</ul>
-							</li>
-							<li><a class="nav-link" title="The Lists" href="lists.html">The Lists</a></li>
-							<li><a class="nav-link" title="Events" href="../events/events.html">Events</a></li>
-							<li class="dropdown">
-								<i class="ddl-switch fa fa-angle-down"></i>
-								<a class="nav-link dropdown-toggle" title="Pages" href="../contact/contact.html">Contact</a>
-								<ul class="dropdown-menu" style="margin-top:26px;">
-									<li><a class="dropdown-item" href="../contact/about.html" title="About">About KootenayBiz</a></li>
-									<li><a class="dropdown-item" href="../contact/subscribe.html" title="Subscribe">Subscribe to KootenayBiz</a></li>
-									<li><a class="dropdown-item" href="../contact/submit.html" title="Submit">Share your story</a></li>
-									<li><a class="dropdown-item" href="../contact/advertise.html" title="Advertise">Promote your business</a></li>
-								</ul>
-							</li>
-							<li><a class="nav-link" title="Events" href="../promoted/promoted_content_new.html">Sponsors</a></li>
-						</ul>
-						<div class="col-lg-1 col-sm-12 d-flex">
-							<ul class="top-social">
-								<li style="list-style: none;"><a href="https://www.facebook.com/KootenayBusiness/" target="_blank" title="Facebook"><i class="ion-social-facebook"></i></a></li>
-								<li style="list-style: none;"><a href="https://twitter.com/kootbusiness" target="_blank" title="Twitter"><i class="ion-social-twitter"></i></a></li>
-								<li style="list-style: none;"><a href="https://www.instagram.com/kootenaybiz/" target="_blank" title="Instagram"><i class="ion-social-instagram"></i></a></li>
+					<!-- End of .side-nav-search-form -->
+				</form>
+				<!-- End of .side-nav-search-form -->
+				<div class="side-nav-content">
+					<div class="row">
+						<div class="col-lg-12">
+							<ul class="main-navigation side-navigation list-inline flex-column">
+								<li><a href="../communities/communities.html">Communities</a></li>
+								<li><a href="../industries/industries.html">Industries</a></li>
+								<li><a href="../thelists/thelists.html">The Lists</a></li>
+								<li><a href="../events/events.html">Events</a></li>
 							</ul>
-							<ul class="top-right user-info">
-								<li><a href="#search-box" data-toggle="collapse" class="search collapsed" title="Search"><i class="pe-7s-search sr-ic-open" style="font-weight: 900;"></i><i class="pe-7s-close sr-ic-close" style="font-weight: 900;"></i></a></li>
+							<!-- End of .main-navigation -->
+						</div>
+						<!-- End of  .col-md-6 -->
+					</div>
+					<!-- End of .row -->
+				</div>
+			</div>
+			<!-- End of .side-nav-inner -->
+			<div class="close-sidenav" id="close-sidenav">
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		<!-- End of .side-nav -->
+		<!-- Header starts -->
+		<header class="page-header">
+			<div class="header-top bg-color-blue-four">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md">
+							<ul class="header-top-nav list-inline justify-content-center justify-content-md-start">
+								<li><a href="#">Advertisement</a></li>
+								<li><a href="../about-us.html">About</a></li>
+								<li><a href="../contact.html">Contact</a></li>
+							</ul>
+							<!-- End of .header-top-nav -->
+						</div>
+						<div class="col-md-auto">
+							<ul class="ml-auto social-share header-top__social-share">
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 							</ul>
 						</div>
-						
 					</div>
-					
-				</nav>	
-			</div><!-- Menu Block /- -->
-		</div><!-- Container /- -->
-		<!-- Search Box -->
-		<div class="search-box collapse" id="search-box">
-			<div class="container">
-				<form>
-					<div class="input-group">
-						<input type="text" class="form-control" placeholder="Search..." required>
-						<span class="input-group-btn">
-							<button class="btn btn-secondary" type="submit"><i class="pe-7s-search"></i></button>
-						</span>
-					</div>
-				</form>
+					<!-- End of .row -->
+				</div>
+				<!-- End of .container -->
 			</div>
-		</div><!-- Search Box /- -->
-	</header><!-- Header Section /- -->
+			<!-- End of .header-top -->
+			<nav class="navbar bg-white">
+				<div class="container">
+					<div class="navbar-inner">
+						<div class="brand-logo-container">
+							<a href="../index.html">
+								<img src="../assets/images/logo-black.svg" alt="" class="brand-logo">
+							</a>
+						</div>
+						<!-- End of .brand-logo-container -->
+						<div class="main-nav-wrapper">
+							<ul class="main-navigation list-inline" id="main-menu">
+								<li><a href="../index.html">Home</a></li>
+								<li class="has-dropdown">
+									<a href="#">Communities</a>
+									<ul class="submenu">
+										<li class="has-dropdown">
+											<a href="../communities/ek-communities.html">East Kootenay</a>
+											<ul class="submenu">
+												<li><a href="#">Ainsworth Hot Springs</a></li>
+												<li><a href="#">Fernie</a></li>
+												<li><a href="../communities/creston.html">Creston</a></li>
+												<li><a href="#">Cranbrook</a></li>
+												<li><a href="#">New Denver</a></li>
+												<li><a href="#">Radium Hot Springs</a></li>
+												<li><a href="#">Revelstoke</a></li>
+												<li><a href="#">Riondel</a></li>
+												<li><a href="#">Rossland</a></li>
+												<li><a href="#">Salmo</a></li>
+												<li><a href="#">Slocan</a></li>
+												<li><a href="#">Trail</a></li>
+											</ul>
+											<!-- End of .submenu -->
+										</li>
+										<li class="has-dropdown">
+											<a href="../communities/wk-communities.html">West Kootenay</a>
+											<ul class="submenu">
+												<li><a href="#">Ainsworth Hot Springs</a></li>
+												<li><a href="#">Castlegar</a></li>
+												<li><a href="#">Christina Lake</a></li>
+												<li><a href="#">Kaslo</a></li>
+												<li><a href="#">Nelson</a></li>
+												<li><a href="#">New Denver</a></li>
+												<li><a href="#">Radium Hot Springs</a></li>
+												<li><a href="#">Revelstoke</a></li>
+												<li><a href="#">Riondel</a></li>
+												<li><a href="#">Rossland</a></li>
+												<li><a href="#">Salmo</a></li>
+												<li><a href="#">Slocan</a></li>
+												<li><a href="#">Trail</a></li>
+											</ul>
+											<!-- End of .submenu -->
+										</li>
+									</ul>
+									<!-- End of .submenu -->
+								</li>
+								<li><a href="../industries/industries.html">Industries</a></li>
+								<li><a href="thelists.html">The Lists</a></li>
+								<li><a href="../events/events.html">Events</a></li>
+								<li class="has-dropdown">
+									<a href="#">Contact</a>
+									<ul class="submenu">
+										<li><a href="../advertise.html">Advertise</a></li>
+										<li><a href="../submit.html">Share your story</a></li>
+										<li><a href="../subscribe.html">Follow KootenayBiz</a></li>
+										<li><a href="../about-us.html">About Us</a></li>
+										<li><a href="../contact.html">Contact Us</a></li>
+									</ul>
+									<!-- End of .submenu -->
+								</li>
+							</ul>
+							<!-- End of .main-navigation -->
+						</div>
+						<!-- End of .main-nav-wrapper -->
+						<div class="navbar-extra-features ml-auto">
+							<form action="#" class="navbar-search">
+								<div class="search-field">
+									<input type="text" class="navbar-search-field" placeholder="Search Here...">
+									<button class="navbar-search-btn" type="button"><i
+											class="fal fa-search"></i></button>
+								</div>
+								<!-- End of .search-field -->
+								<a href="#" class="navbar-search-close"><i class="fal fa-times"></i></a>
+							</form>
+							<!-- End of .navbar-search -->
+							<a href="#" class="nav-search-field-toggler" data-toggle="nav-search-feild"><i
+									class="far fa-search"></i></a>
+							<a href="#" class="side-nav-toggler" id="side-nav-toggler">
+								<span></span>
+								<span></span>
+								<span></span>
+							</a>
+						</div>
+						<!-- End of .navbar-extra-features -->
+						<div class="main-nav-toggler d-block d-lg-none" id="main-nav-toggler">
+							<div class="toggler-inner">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+						<!-- End of .main-nav-toggler -->
+					</div>
+					<!-- End of .navbar-inner -->
+				</div>
+				<!-- End of .container -->
+			</nav>
+			<!-- End of .navbar -->
+		</header>
+		<!-- End of .page-header -->
 
-	<div class="main-container">	
-		<main class="site-main">
+		<div class="recent-news-wrapper section-gap p-t-xs-15 p-t-sm-15 p-t-md-15">
+			<div class="container">
+				<!-- Billboard -->
+				<div class="text-center p-t-xs-0 p-t-sm-15 p-t-md-15 p-b-md-30 p-b-sm-30">
+					<img src="../assets/ads/Billboard_Ad.jpg" class="img-fluid" alt="Responsive image">
+				</div>
+				<!-- /Billboard -->
+
+				<!-- The Lists Section-->
+				<div class="section-gap p-t-xs-15 p-t-sm-15 p-t-md-30">
+					<div class="section-title m-b-xs-15 m-b-sm-15">
+						<h2 class="axil-title">The Lists</h2>
+						<a href="#" class="btn-link">View All Kootenay Lists</a>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 col-md-3 col-lg-3">
+							<div class="axil-latest-post">
+								<div class="media post-block m-b-xs-20">
+									<figure class="fig-container">
+										<a href="../post-format-list.html"><img src="../assets/images/homepage-img/10.png"
+												alt="latest post"></a>
+									</figure>
+									<div class="media-body">
+										<div class="post-cat-group">
+											<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+										</div>
+										<h3 class="axil-post-title-sm hover-line hover-line"><a
+												href="../post-format-list.html">Gearing up for farmers market season across the Kootenays</a></h3>
+										<p class="small">Local farmers markets help to increase food security and create sustainable communities—check out our list of markets across the Kootenays.</p>	
+										<div class="post-metas">
+											<ul class="list-inline">
+												<li>By <a href="#">Amachea Jajah</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-3 col-lg-3">
+							<div class="axil-latest-post">
+								<div class="media post-block m-b-xs-20">
+									<figure class="fig-container">
+										<a href="../post-format-list.html"><img src="../assets/images/homepage-img/11.png"
+												alt="latest post"></a>
+									</figure>
+									<div class="media-body">
+										<div class="post-cat-group">
+											<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+										</div>
+										<h3 class="axil-post-title-sm hover-line hover-line"><a
+												href="../post-format-list.html">Thirsty for a cold brew? Check out this list of Kootenay craft-beer breweries</a></h3>
+										<p class="small">Find award-winning beers at these local Kootenay area breweries</p>	
+										<div class="post-metas">
+											<ul class="list-inline">
+												<li>By <a href="#">Amachea Jajah</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-3 col-lg-3">
+							<div class="post-cat-group">
+									<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+								</div>
+								<h3 class="axil-post-title-sm hover-line hover-line"><a
+									href="../post-format-list.html">Kootenay Business presents its annual list of Top 120 Kootenay employers</a></h3>
+								<div class="post-cat-group">
+									<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+								</div>
+								<h3 class="axil-post-title-sm hover-line hover-line"><a
+									href="../post-format-list.html">We present our latest Best of Business 2021 awards list</a></h3>
+								<div class="post-cat-group">
+									<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+								</div>
+								<h3 class="axil-post-title-sm hover-line hover-line"><a
+									href="../post-format-list.html">These Kootenay coffee roasters help you get your buzz on for National Coffee Day</a></h3>
+						</div>
+						<div class="col-xs-12 col-md-3 col-lg-3 mx-auto text-left p-r-xs-40 p-l-xs-40 p-r-sm-0 p-l-sm-30 m-t-md-0">
+							<!-- End of  .newsletter-widget -->
+							<div class="add-block-widget m-b-xs-30 m-b-md-20 text-center mx-auto">
+								<a href="#"><img src="../assets/ads/BigBox_Ad.jpg" alt="sidebar add"class="img-fluid"></a>
+							</div>
+							<!-- End of .category-widget -->
+							<div class="bg-grey-light-three p-r-xs-15 p-l-xs-15 p-t-xs-15 p-b-xs-5">
+								<div class="post-cat-group m-b-md-0">
+									<a href="#"
+										class="post-cat cat-btn bg-grey-dark-four">SPONSORED CONTENT</a>
+								</div>
+								<div class="axil-latest-post">
+									<div class="media post-block m-b-xs-20">
+										<div class="media-body">
+											<h3 class="sponsoredHeading"><a
+												href="#" >Gerald Walsh Realtor - working for YOU!</a></h3>
+											<div class="post-metas">
+												<ul class="list-inline">
+													<li>By <a href="#" class="sponsoredLink">Gerald Walsh Realtor - Remax</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr class="m-t-md-30">
+				</div>
+				<!-- The Lists Section-->
+
+				<!-- Lists -->	
+				<div class="section-gap p-t-sm-30 p-t-md-20">
+					<div class="row">
+						<div class="col-sm-12 col-md-9 col-lg-9 m-t-md-20">
+							<main class="axil-content">
+								<div class="media post-block post-block__mid m-b-xs-30">
+									<a href="../post-format-standard.html" class="align-self-center"><img class=" m-r-xs-30"
+											src="../assets/images/homepage-img/14.png" alt=""></a>
+									<div class="media-body">
+										<div class="post-cat-group">
+											<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+										</div>
+										<h3 class="axil-post-title hover-line hover-line"><a
+												href="../post-format-standard.html">A world-class, Kootenay-based company: ThoughtExchange’s beginnings and phenomenal growth</a></h3>
+										<p class="mid">With CEO Dave MacLeod at the helm, ThoughtExchange in Rossland, B.C., has seen 1,000 per cent year-over-year use of the tech platform</p>
+										<div class="post-metas">
+											<ul class="list-inline">
+												<li>By <a href="#">Amachea Jajah</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- End of .post-block -->
+								<div class="media post-block post-block__mid m-b-xs-30">
+									<a href="../post-format-standard.html" class="align-self-center"><img class=" m-r-xs-30"
+											src="../assets/images/homepage-img/15.png" alt=""></a>
+									<div class="media-body">
+										<div class="post-cat-group">
+											<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+										</div>
+										<h3 class="axil-post-title hover-line hover-line"><a
+												href="../post-format-standard.html">MP Wayne Stetksi congratulates the Ktunaxa on approval of project to protect Qat’muk</a></h3>
+										<p class="mid">Pat Meerholz, co-owner of Wynndel Craft Distilleries in Creston Valley, B.C., handcrafts award-winning brandy, gin, rum, vodka, liqueur and schnapps</p>
+										<div class="post-metas">
+											<ul class="list-inline">
+												<li>By <a href="#">Amachea Jajah</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- End of .post-block -->
+								<div class="media post-block post-block__mid m-b-xs-30">
+									<a href="../post-format-standard.html" class="align-self-center"><img class=" m-r-xs-30"
+											src="../assets/images/homepage-img/16.png" alt=""></a>
+									<div class="media-body">
+										<div class="post-cat-group">
+											<a href="#"
+												class="post-cat cat-btn bg-color-blue-two">LIST</a>
+										</div>
+										<h3 class="axil-post-title hover-line hover-line"><a
+												href="../post-format-standard.html">Celebrating a “Celebrate everything!” business at this year’s Trail Business Excellence Awards</a></h3>
+										<p class="mid">It was an evening of online celebration and virtual toasts to the winners of the 2020 Trail Business Excellence Awards</p>
+										<div class="post-metas">
+											<ul class="list-inline">
+												<li>By <a href="#">Amachea Jajah</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- End of .post-block -->
+								<div class="media post-block post-block__mid m-b-xs-30">
+									<a href="../post-format-standard.html" class="align-self-center"><img class=" m-r-xs-30"
+											src="../assets/images/homepage-img/17.png" alt=""></a>
+									<div class="media-body">
+										<div class="post-cat-group">
+											<a href="#"
+											class="post-cat cat-btn bg-color-blue-two">LIST</a>
+										</div>
+										<h3 class="axil-post-title hover-line hover-line"><a
+												href="../post-format-standard.html">Kokanee Soaring Adventures has taken flight in Nelson</a></h3>
+										<p class="mid">Eric Ridington, owner of Kokanee Soaring Adventures in Nelson, B.C., offers glider tours over Kootenay Lake and Kokanee Glacier</p>
+										<div class="post-metas">
+											<ul class="list-inline">
+												<li>By <a href="#">Amachea Jajah</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- End of .post-block -->
+								<div class="media post-block post-block__mid m-b-xs-30">
+									<a href="../post-format-standard.html" class="align-self-center"><img class=" m-r-xs-30"
+											src="../assets/images/homepage-img/13.png" alt=""></a>
+									<div class="media-body">
+										<div class="post-cat-group">
+											<a href="#"
+												class="post-cat cat-btn bg-color-blue-two">LIST</a>
+										</div>
+										<h3 class="axil-post-title hover-line hover-line"><a
+												href="../post-format-standard.html">DQ treats—and new jobs—are coming to Trail, B.C.</a></h3>
+										<p class="mid">A new Dairy Queen Grill and Chill restaurant will occupy the old Union Hotel property in Trail, B.C.</p>
+										<div class="post-metas">
+											<ul class="list-inline">
+												<li>By <a href="#">Amachea Jajah</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- End of .post-block -->
+								<div class="media post-block post-block__mid m-b-xs-30">
+									<a href="../post-format-standard.html" class="align-self-center"><img class=" m-r-xs-30"
+											src="../assets/images/homepage-img/ind-6.png" alt=""></a>
+									<div class="media-body">
+										<div class="post-cat-group">
+											<a href="#"
+												class="post-cat cat-btn bg-color-blue-two">LIST</a>
+										</div>
+										<h3 class="axil-post-title hover-line hover-line"><a
+												href="../post-format-standard.html">Kootenay co-working spaces offer community and creative collaboration</a></h3>
+										<p class="mid">They’re a growing trend across the Kootenays—check out this list of the region’s co-working spaces</p>
+										<div class="post-metas">
+											<ul class="list-inline">
+												<li>By <a href="#">Amachea Jajah</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- End of .post-block -->
+								<div class="media post-block post-block__mid m-b-xs-30">
+									<a href="../post-format-standard.html" class="align-self-center"><img class=" m-r-xs-30"
+											src="../assets/images/homepage-img/ind-7.png" alt=""></a>
+									<div class="media-body">
+										<div class="post-cat-group">
+											<a href="#"
+												class="post-cat cat-btn bg-color-blue-two">LIST</a>
+										</div>
+										<h3 class="axil-post-title hover-line hover-line"><a
+												href="../post-format-standard.html">It takes a village: This West Kootenay farm is on the right track</a></h3>
+										<p class="mid">The owners of Earthy Organics in Fruitvale, B.C., are huge proponents of community-supported agriculture.</p>
+										<div class="post-metas">
+											<ul class="list-inline">
+												<li>By <a href="#">Amachea Jajah</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- End of .post-block -->
+							</main>
+							<!-- End of .axil-content -->
+						</div>
+						<!-- End of .col-lg-8 -->
+						<div class="col-xs-12 col-md-3 col-lg-3 mx-auto text-left p-r-xs-40 p-l-xs-40 p-r-sm-0 p-l-sm-0 m-t-md-0">
+							<aside class="post-sidebar">
+								
+								<div class="add-block-widget m-b-xs-40 m-b-md-20 m-t-md-20 text-center mx-auto">
+									<a href="#"><img src="../assets/ads/Sidekick_Ad.jpg" alt="sidebar add"class="img-fluid"></a>
+								</div>
+								<!-- End of .category-widget -->
+								<div class="bg-grey-light-three p-r-xs-15 p-l-xs-15 p-t-xs-15 p-b-xs-5">
+									<div class="post-cat-group m-b-xs-10 m-b-md-10">
+										<a href="business.html"
+											class="post-cat cat-btn bg-grey-dark-four">SPONSORED CONTENT</a>
+									</div>
+									<div class="axil-latest-post">
+										<div class="media post-block m-b-xs-20">
+											<div class="media-body">
+												<h3 class="sponsoredHeading"><a
+													href="#">EnRoute can help you reach your employment destination</a></h3>
+												<div class="post-metas">
+													<ul class="list-inline">
+														<li>By <a href="#" class="sponsoredLink">Kootenay Career Development Society</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="axil-latest-post">
+										<div class="media post-block m-b-xs-20">
+											<div class="media-body">
+												<h3 class="sponsoredHeading"><a
+													href="#">Custom cabinetry with style</a></h3>
+												<div class="post-metas">
+													<ul class="list-inline">
+														<li>By <a href="#" class="sponsoredLink">Archdesign Cabinetry</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="axil-latest-post">
+										<div class="media post-block m-b-xs-20">
+											<div class="media-body">
+												<h3 class="sponsoredHeading"><a
+													href="#">Learn how to keep your business secure</a></h3>
+												<div class="post-metas">
+													<ul class="list-inline">
+														<li>By <a href="#" class="sponsoredLink">Mountain Eagle Security</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="axil-latest-post">
+										<div class="media post-block m-b-xs-20">
+											<div class="media-body">
+												<h3 class="sponsoredHeading"><a
+													href="#">Choose Ktunaxa Business</a></h3>
+												<div class="post-metas">
+													<ul class="list-inline">
+														<li>By <a href="#" class="sponsoredLink">Ktunaxa Nation Council Society</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="add-block-widget m-b-xs-40 m-b-md-20 m-t-md-20 text-center mx-auto">
+									<a href="#"><img src="../assets/ads/BigBox_Ad.jpg" alt="sidebar add"class="img-fluid"></a>
+								</div>
+							</aside>
+							<!-- End of .post-sidebar -->
+						</div>
+						<!-- End of .col-lg-4 -->
+					</div>
+					<!-- End of .row -->
+				</div>
+				<hr>
+				<!-- Lists -->	
+			</div>
+			
+
+			<!-- Related Posts -->
+			<section class="related-post p-b-xs-30 m-t-md-30">
+				<div class="container">
+					<div class="grid-wrapper">
+						<div class="row">
+							<div class="col-lg-4 col-md-4">
+								<div class="axil-latest-post">
+									<div class="media post-block m-b-xs-20">
+										<figure class="fig-container">
+											<a href="#"><img src="../assets/images/homepage-img/1.png"
+													alt="latest post"></a>
+										</figure>
+										<div class="media-body">
+											<div class="post-cat-group m-b-sm-0">
+												<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+											</div>
+											<h3 class="axil-post-title-sm hover-line hover-line"><a
+													href="../post-format-standard.html">Corinne Olsen Coaching in Christina Lake offers clients a virtual platform to obtain wellness</a></h3>
+											<div class="post-metas">
+												<ul class="list-inline">
+													<li>By <a href="#">Amachea Jajah</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End of .col-lg-4 -->
+							<div class="col-lg-4 col-md-4">
+								<div class="axil-latest-post">
+									<div class="media post-block m-b-xs-20">
+										<figure class="fig-container">
+											<a href="#"><img src="../assets/images/homepage-img/2.png"
+													alt="latest post"></a>
+										</figure>
+										<div class="media-body">
+											<div class="post-cat-group m-b-sm-0">
+												<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+											</div>
+											<h3 class="axil-post-title-sm hover-line hover-line"><a
+													href="../post-format-standard.html">
+													Kimberley, B.C.: This is not your grandfather’s branding</a></h3>
+											<div class="post-metas">
+												<ul class="list-inline">
+													<li>By <a href="#">Amachea Jajah</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End of .col-lg-3 -->
+							<div class="col-lg-4 col-md-4">
+								<div class="axil-latest-post">
+									<div class="media post-block m-b-xs-20">
+										<figure class="fig-container">
+											<a href="#"><img src="../assets/images/homepage-img/3.png"
+													alt="latest post"></a>
+										</figure>
+										<div class="media-body">
+											<div class="post-cat-group m-b-sm-0">
+												<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+											</div>
+											<h3 class="axil-post-title-sm hover-line hover-line"><a
+													href="../post-format-standard.html">One-on-one with Tom Thompson, executive director of the Nelson Chamber of Commerce</a></h3>
+											<div class="post-metas">
+												<ul class="list-inline">
+													<li>By <a href="#">Amachea Jajah</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End of .col-lg-4 -->
+						</div>
+						<!-- End of .row -->
+						<div class="row">
+							<div class="col-lg-4 col-md-4">
+								<div class="axil-latest-post">
+									<div class="media post-block m-b-xs-20">
+										<figure class="fig-container">
+											<a href="#"><img src="../assets/images/homepage-img/4.png"
+													alt="latest post"></a>
+										</figure>
+										<div class="media-body">
+											<div class="post-cat-group m-b-sm-0">
+												<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+											</div>
+											<h3 class="axil-post-title-sm hover-line hover-line"><a
+													href="../post-format-standard.html">Craft beer lovers have poured into Wild North Brewing Co. since its opening in Creston</a></h3>
+											<div class="post-metas">
+												<ul class="list-inline">
+													<li>By <a href="#">Amachea Jajah</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End of .col-lg-4 -->
+							<div class="col-lg-4 col-md-4">
+								<div class="axil-latest-post">
+									<div class="media post-block m-b-xs-20">
+										<figure class="fig-container">
+											<a href="#"><img src="../assets/images/homepage-img/creston-img-1.png"
+													alt="latest post"></a>
+										</figure>
+										<div class="media-body">
+											<div class="post-cat-group m-b-sm-0">
+												<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+											</div>
+											<h3 class="axil-post-title-sm hover-line hover-line"><a
+													href="../post-format-standard.html">Lark Coffee Roasters in Creston has a hot ticket roaster at the helm</a></h3>
+											<div class="post-metas">
+												<ul class="list-inline">
+													<li>By <a href="#">Amachea Jajah</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End of .col-lg-3 -->
+							<div class="col-lg-4 col-md-4">
+								<div class="axil-latest-post">
+									<div class="media post-block m-b-xs-20">
+										<figure class="fig-container">
+											<a href="#"><img src="../assets/images/homepage-img/7.png"
+													alt="latest post"></a>
+										</figure>
+										<div class="media-body">
+											<div class="post-cat-group m-b-sm-0">
+												<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+											</div>
+											<h3 class="axil-post-title-sm hover-line hover-line"><a
+													href="../post-format-standard.html">One-on-one with Castlegar Chamber President Derrek Kittson</a></h3>
+											<div class="post-metas">
+												<ul class="list-inline">
+													<li>By <a href="#">Amachea Jajah</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End of .col-lg-4 -->
+						</div>
+						<!-- End of .row -->
+					</div>
+					<!-- End of .grid-wrapper -->
+				</div>
+				<!-- End of .container -->
+			</section>
 
 			<!-- Billboard -->
-			<div class="container text-center my-3">
-				<img src="../images/ads/billboard_ad.svg" class="billboardAd2 img-fluid" alt="Responsive image">
+			<div class="container text-center p-t-xs-15 p-t-sm-5 p-b-sm-15 p-t-md-0 p-b-md-0 m-b-md-30">
+				<img src="../assets/ads/Billboard_Ad.jpg" class="img-fluid" alt="Responsive image">
 			</div>
 			<!-- /Billboard -->
-
-		<!-- Lists -->
-		<div class="container-fluid no-left-padding no-right-padding page-content blog-1-post py-0 my-0">
-			<!-- Container -->
-			<div class="container">
-				<hr class="sectionDivider">
-				<h2 class="my-1" style="font-size: 16px;">Top Lists in the Kootenays</h2>
-				<h3 class="entry-title-lg uppercase my-1 font-weight-bold" style="font-size: 48px;">THE LISTS</h3>
-				<!-- Row -->
-				<div class="row">
-					<!-- Feature Story -->
-					<div class="col-xs-1 col-sm-6 col-md-6 col-lg-6 blog-1 mt-2">
-						<div class="type-post">
-							<div class="entry-cover">
-								<a href="#"><img src="../images/homepage-img/10.png" alt="Post" /></a>
-							</div>
-							<div class="entry-content">
-								<div class="entry-header">
-									<span class="post-category"><a href="#">List</a></span>	
-									<h3 class="entry-title-lg"><a href="#">Gearing up for farmers market season across the Kootenays</a></h3>
-									<p>Local farmers markets help to increase food security and create sustainable communities—check out our list of markets across the Kootenays.</p>
-								</div>								
-							</div>
-						</div>
-					</div>
-					<!-- 2 Summaries -->		
-					<div class="col-12 col-md-3 col-sm-6 blog-1 mt-2">
-						<div class="type-post" style="margin-bottom:0;">
-							<div class="entry-cover">
-								<a href="#"><img src="../images/homepage-img/11.png" alt="Post" /></a>
-							</div>
-							<div class="entry-content">
-								<div class="entry-header">
-									<span class="post-category"><a href="#">List</a></span>	
-									<h3 class="entry-title-md"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elitet est nulla</a></h3>
-								</div>								
-							</div>
-						</div>
-						<div class="type-post mt-2" style="margin-bottom:0;">
-							<div class="entry-cover">
-								<a href="#"><img src="../images/homepage-img/11.png" alt="Post" /></a>
-							</div>
-							<div class="entry-content">
-								<div class="entry-header">
-									<span class="post-category"><a href="#">List</a></span>		
-									<h3 class="entry-title-md"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elitet est nulla</a></h3>
-								</div>								
-							</div>
-						</div>
-					</div>
-					<!-- Third Column -->
-					<div class="col-12 col-md-3 col-sm-6 blog-1 mt-2">
-						<div class="type-post p-0" style="margin-bottom: 10px;">
-							<div class="entry-cover">
-								<a href="#"><img src="../images/ads/bigbox_ad.svg" alt="Post" /></a>
-							</div>
-						</div>
-						<!-- Quicklinks -->
-						<h3 class="sectionHeading uppercase mt-4 mb-2" style="border:none;font-size: 12px;">Sponsored</h3>
-						<div class="card col-12 col-md-12 blog-1 mt-0">
-							<h3 class="entry-title-sm-sponsors"><a href="#">Choose Ktunaxa Business</a></h3>
-							<p>Promoted by <span><a href="#" class="link-sponsors">Business name</a></span></p>
-							<h3 class="entry-title-sm-sponsors"><a href="#">Learn how to keep your business secure</a></h3>
-							<p>Promoted by <span><a href="#" class="link-sponsors">Business name</a></span></p>
-							<h3 class="entry-title-sm-sponsors"><a href="#">Legacy Summit at Wildstone - luxury condo homes</a></h3>
-							<p>Promoted by <span><a href="#" class="link-sponsors">Business name</a></span></p>
-						</div>
-					</div><!-- Third Column /- -->
-				</div><!-- Row /- -->
-			</div><!-- Container /- -->
-		</div><!-- /Lists-->
-
-			<!-- Lists Articles -->
-			<div class="container-fluid no-left-padding no-right-padding page-content blog-1-post py-0 my-4">
-				<!-- Container -->
+		
+			<!--Promoted-->
+			<div class="section-gap p-t-xs-0 p-t-sm-15 p-t-md-15 p-b-md-30 bg-grey-light-three">
+				<hr class="mb-4">
 				<div class="container">
-					<hr class="sectionDivider">
-					<!-- Row -->
-					<div class="row">
-						<!-- 1 Summaries -->		
-						<div class="col-12 col-md-4 col-sm-6 blog-1 mt-2">
-							<div class="type-post" style="margin-bottom:0;">
-								<div class="entry-cover">
-									<a href="#"><img src="../images/homepage-img/12.png" alt="Post" /></a>
-								</div>
-								<div class="entry-content">
-									<div class="entry-header">	
-										<span class="post-category"><a href="#">LIST</a></span>
-										<h3 class="entry-title-md-summary"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elitet est nulla</a></h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur nunc ante, eget euismod neque pulvinar blandit.</p>
-									</div>								
-								</div>
-							</div>
+					<div class="section-title">
+						<div class="post-cat-group m-b-xs-10 m-b-md-10">
+							<a href="#"
+								class="post-cat cat-btn bg-grey-dark-four">SPONSORED CONTENT</a>
 						</div>
-						<!-- 1 Summaries -->		
-						<div class="col-12 col-md-4 col-sm-6 blog-1 mt-2">
-							<div class="type-post" style="margin-bottom:0;">
-								<div class="entry-cover">
-									<a href="#"><img src="../images/homepage-img/12.png" alt="Post" /></a>
-								</div>
-								<div class="entry-content">
-									<div class="entry-header">	
-										<span class="post-category"><a href="#">LIST</a></span>
-										<h3 class="entry-title-md-summary"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elitet est nulla</a></h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur nunc ante, eget euismod neque pulvinar blandit.</p>
-									</div>								
-								</div>
-							</div>
-						</div>
-						<!-- 1 Summaries -->		
-						<div class="col-12 col-md-4 col-sm-6 blog-1 mt-2">
-							<div class="type-post" style="margin-bottom:0;">
-								<div class="entry-cover">
-									<a href="#"><img src="../images/homepage-img/12.png" alt="Post" /></a>
-								</div>
-								<div class="entry-content">
-									<div class="entry-header">	
-										<span class="post-category"><a href="#">LIST</a></span>
-										<h3 class="entry-title-md-summary"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elitet est nulla</a></h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur nunc ante, eget euismod neque pulvinar blandit.</p>
-									</div>								
-								</div>
-							</div>
-						</div>
-					</div><!-- Row /- -->
-					<!-- Row -->
-					<div class="row">
-						<!-- 1 Summaries -->		
-						<div class="col-12 col-md-4 col-sm-6 blog-1 mt-4">
-							<div class="type-post" style="margin-bottom:0;">
-								<div class="entry-cover">
-									<a href="#"><img src="../images/homepage-img/12.png" alt="Post" /></a>
-								</div>
-								<div class="entry-content">
-									<div class="entry-header">	
-										<span class="post-category"><a href="#">LIST</a></span>
-										<h3 class="entry-title-md-summary"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elitet est nulla</a></h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur nunc ante, eget euismod neque pulvinar blandit.</p>
-									</div>								
-								</div>
-							</div>
-						</div>
-						<!-- 1 Summaries -->		
-						<div class="col-12 col-md-4 col-sm-6 blog-1 mt-4">
-							<div class="type-post" style="margin-bottom:0;">
-								<div class="entry-cover">
-									<a href="#"><img src="../images/homepage-img/12.png" alt="Post" /></a>
-								</div>
-								<div class="entry-content">
-									<div class="entry-header">	
-										<span class="post-category"><a href="#">LIST</a></span>
-										<h3 class="entry-title-md-summary"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elitet est nulla</a></h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur nunc ante, eget euismod neque pulvinar blandit.</p>
-									</div>								
-								</div>
-							</div>
-						</div>
-						<!-- 1 Summaries -->		
-						<div class="col-12 col-md-4 col-sm-6 blog-1 mt-4">
-							<div class="type-post" style="margin-bottom:0;">
-								<div class="entry-cover">
-									<a href="#"><img src="../images/homepage-img/12.png" alt="Post" /></a>
-								</div>
-								<div class="entry-content">
-									<div class="entry-header">	
-										<span class="post-category"><a href="#">LIST</a></span>
-										<h3 class="entry-title-md-summary mb-2"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elitet est nulla</a></h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur nunc ante, eget euismod neque pulvinar blandit.</p>
-									</div>								
-								</div>
-							</div>
-						</div>
-						
-					</div><!-- Row /- -->
-				</div><!-- Container /- -->
-			</div><!-- /List Articles-->
-			
-			<!-- Promoted + Sponsors -->
-			<div class="container-fluid no-left-padding no-right-padding page-content blog-1-post my-0 py-0">
-				<!-- Container -->
-				<div class="container">
-					<hr class="sectionDivider">
-					<div class="row d-flex">
-						<div class="col d-flex justify-content-start">
-							<h3 class="sectionHeading uppercase mb-3" style="border:none;font-size: 12px;">Sponsored</h3>
-						</div>
-						<div class="col d-flex justify-content-end">
-							<a href="#" style="font-size: 12px;">View all Sponsors</a>
-						</div>
+						<a href="#" class="btn-link m-b-xs-10 m-b-md-10">View all sponsored content</a>
 					</div>
-					<!-- Row -->
-					<div class="row my-0 py-0">
-						<div class="card-group">
-							<div class="card col-12 col-md-4 col-sm-12">
-								<img class="card-img-top" src="../images/homepage-img/sp-1.png" alt="Card image cap">
-								<div class="card-body">
-								  <span class="post-category"><a href="#" style="color: #6B6B6B; font-weight: normal; font-size: 11px">Promoted</a></span>
-								  <h3 class="entry-title-md-sponsors"><a href="#">The Kootenays’ most experienced fixed-price builder is looking for new condo owners in Cranbrook</a></h3>
-								  <p class="card-text">Robin Brazenall, director of Münter Design & Build in Kimberley, B.C., designs and builds custom homes, large renovations and light-commercial projects.</p>
-								</div>
-								<div class="card-footer">
-									<a href="#" class="btn btn-primary">Learn more</a>
-								</div>
-							</div>
-							<div class="card col-12 col-md-4 col-sm-12">
-								<img class="card-img-top" src="../images/homepage-img/sp-2.png" alt="Card image cap">
-								<div class="card-body">
-								  <span class="post-category"></span><a href="#" style="color: #6B6B6B; font-weight: normal; font-size: 11px">Sponsored</a><span class="material-icons" style="vertical-align: middle; margin-left:10px; font-size: 16px;"><a href="#">open_in_new</a></span></span>
-								  <h3 class="entry-title-md-sponsors"><a href="#">Learn how to keep your business secure</a></h3>
-								  <p class="card-text">Mountain Eagle Security provides 24-hour security guards and surveillance for your business and property.</p>
-								</div>
-								<div class="card-footer">
-									<a href="#" class="btn btn-primary">Learn more</a>
+					<div class="row">
+						<div class="col-6 col-md-3 col-lg-3">
+							<div class="axil-latest-post">
+								<div class="media post-block m-b-xs-20">
+									<figure class="fig-container">
+										<a href="#"><img src="../assets/images/homepage-img/sp-15.png"
+												alt="latest post"></a>
+									</figure>
+									<div class="media-body">
+										<h3 class="sponsoredHeading"><a
+												href="../post-format-promoted.html">Buy a house remotely in the Kootenays with professionals by your side</a></h3>
+										<div class="post-metas">
+											<ul class="list-inline" style="font-size: 'Roboto', sans-serif;">
+												<li>By <a href="#" class="sponsoredLink">Sandy Smith Properties</a></li>
+											</ul>
+										</div>
+									</div>
 								</div>
 							</div>
-							<div class="card col-12 col-md-4 col-sm-12">
-								<img class="card-img-top" src="../images/homepage-img/sp-3.png" alt="Card image cap">
-								<div class="card-body">
-								  <span class="post-category"><a href="#" style="color: #6B6B6B; font-weight: normal; font-size: 11px">Promoted</a></span>
-								  <h3 class="entry-title-md-sponsors"><a href="#">Obtain financial peace with a financial advisor</a></h3>
-								  <p class="card-text">Colin White, Portfolio Manager of WLWP Wealth Planners in Nelson, B.C., encourages Canadians to talk about money with a financial advisor.</p>
+						</div>
+						<div class="col-6 col-md-3 col-lg-3">
+							<div class="axil-latest-post">
+								<div class="media post-block m-b-xs-20">
+									<figure class="fig-container">
+										<a href="#"><img src="../assets/images/homepage-img/sp-16.png"
+												alt="latest post"></a>
+									</figure>
+									<div class="media-body">
+										<h3 class="sponsoredHeading"><a
+											href="../post-format-promoted.html">The Ktunaxa Nation and the City of Cranbrook: A partnership with Indigenous people and a community</a></h3>
+										<div class="post-metas">
+											<ul class="list-inline" style="font-size: 'Roboto', sans-serif;">
+												<li>By <a href="#" class="sponsoredLink">City of Cranbrook</a></li>
+											</ul>
+										</div>
+									</div>
 								</div>
-								<div class="card-footer">
-									<a href="#" class="btn btn-primary">Learn more</a>
+							</div>
+						</div>
+						<div class="col-6 col-md-3 col-lg-3">
+							<div class="axil-latest-post">
+								<div class="media post-block m-b-xs-20">
+									<figure class="fig-container">
+										<a href="#"><img src="../assets/images/homepage-img/sp-17.png"
+												alt="latest post"></a>
+									</figure>
+									<div class="media-body">
+										<h3 class="sponsoredHeading"><a
+											href="#">Buy or build a house? This Cranbrook couple tackled that hard decision with an uncommon approach</a></h3>
+										<div class="post-metas">
+											<ul class="list-inline" style="font-size: 'Roboto', sans-serif;">
+												<li>By <a href="#" class="sponsoredLink">Steeples Construction</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-6 col-md-3 col-lg-3">
+							<div class="axil-latest-post">
+								<div class="media post-block m-b-xs-20">
+									<figure class="fig-container">
+										<a href="#"><img src="../assets/images/homepage-img/sp-18.png"
+												alt="latest post"></a>
+									</figure>
+									<div class="media-body">
+										<h3 class="sponsoredHeading"><a
+											href="#">Business in Profile: Signs, Banners, Vehicle Graphics - meet the team at Nelson’s Speedpro Signs</a></h3>
+										<div class="post-metas">
+											<ul class="list-inline" style="font-size: 'Roboto', sans-serif;">
+												<li>By <a href="#" class="sponsoredLink">Speedpro Signs</a></li>
+											</ul>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<hr>
 			</div>
-			<!-- /Promoted + Sponsors -->
+			<!-- End of PROMOTED-->
 
-			<!-- List Articles -->
-			<div class="container-fluid no-left-padding no-right-padding page-content blog-1-post py-0 my-4">
-				<!-- Container -->
+			<!-- Related Posts -->
+			<section class="related-post p-b-xs-30 p-t-xs-50">
 				<div class="container">
-					<hr class="sectionDivider">
-					<!-- Row -->
-					<div class="row">
-						<!-- 1 Summaries -->		
-						<div class="col-12 col-md-4 col-sm-6 blog-1 mt-2">
-							<div class="type-post" style="margin-bottom:0;">
-								<div class="entry-cover">
-									<a href="#"><img src="../images/homepage-img/12.png" alt="Post" /></a>
-								</div>
-								<div class="entry-content">
-									<div class="entry-header">	
-										<span class="post-category"><a href="#">LIST</a></span>
-										<h3 class="entry-title-md-summary"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elitet est nulla</a></h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur nunc ante, eget euismod neque pulvinar blandit.</p>
-									</div>								
-								</div>
-							</div>
-						</div>
-						<!-- 1 Summaries -->		
-						<div class="col-12 col-md-4 col-sm-6 blog-1 mt-2">
-							<div class="type-post" style="margin-bottom:0;">
-								<div class="entry-cover">
-									<a href="#"><img src="../images/homepage-img/12.png" alt="Post" /></a>
-								</div>
-								<div class="entry-content">
-									<div class="entry-header">	
-										<span class="post-category"><a href="#">LIST</a></span>
-										<h3 class="entry-title-md-summary"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elitet est nulla</a></h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur nunc ante, eget euismod neque pulvinar blandit.</p>
-									</div>								
+					<div class="grid-wrapper">
+						<div class="row">
+							<div class="col-lg-4 col-md-4">
+								<div class="axil-latest-post">
+									<div class="media post-block m-b-xs-20">
+										<figure class="fig-container">
+											<a href="#"><img src="../assets/images/homepage-img/8.png"
+													alt="latest post"></a>
+										</figure>
+										<div class="media-body">
+											<div class="post-cat-group m-b-sm-0">
+												<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+											</div>
+											<h3 class="axil-post-title-sm hover-line hover-line"><a
+													href="../post-format-standard.html">Corinne Olsen Coaching in Christina Lake offers clients a virtual platform to obtain wellness</a></h3>
+											<div class="post-metas">
+												<ul class="list-inline">
+													<li>By <a href="#">Amachea Jajah</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
-						</div>
-						<!-- 1 Summaries -->		
-						<div class="col-12 col-md-4 col-sm-6 blog-1 mt-2">
-							<div class="type-post" style="margin-bottom:0;">
-								<div class="entry-cover">
-									<a href="#"><img src="../images/homepage-img/12.png" alt="Post" /></a>
-								</div>
-								<div class="entry-content">
-									<div class="entry-header">	
-										<span class="post-category"><a href="#">LIST</a></span>
-										<h3 class="entry-title-md-summary"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elitet est nulla</a></h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur nunc ante, eget euismod neque pulvinar blandit.</p>
-									</div>								
-								</div>
-							</div>
-						</div>
-					</div><!-- Row /- -->
-					<!-- Row -->
-					<div class="row">
-						<!-- 1 Summaries -->		
-						<div class="col-12 col-md-4 col-sm-6 blog-1 mt-4">
-							<div class="type-post" style="margin-bottom:0;">
-								<div class="entry-cover">
-									<a href="#"><img src="../images/homepage-img/12.png" alt="Post" /></a>
-								</div>
-								<div class="entry-content">
-									<div class="entry-header">	
-										<span class="post-category"><a href="#">LIST</a></span>
-										<h3 class="entry-title-md-summary"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elitet est nulla</a></h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur nunc ante, eget euismod neque pulvinar blandit.</p>
-									</div>								
+							<!-- End of .col-lg-4 -->
+							<div class="col-lg-4 col-md-4">
+								<div class="axil-latest-post">
+									<div class="media post-block m-b-xs-20">
+										<figure class="fig-container">
+											<a href="#"><img src="../assets/images/homepage-img/9.png"
+													alt="latest post"></a>
+										</figure>
+										<div class="media-body">
+											<div class="post-cat-group m-b-sm-0">
+												<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+											</div>
+											<h3 class="axil-post-title-sm hover-line hover-line"><a
+													href="../post-format-standard.html">
+													Kimberley, B.C.: This is not your grandfather’s branding</a></h3>
+											<div class="post-metas">
+												<ul class="list-inline">
+													<li>By <a href="#">Amachea Jajah</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
-						</div>
-						<!-- 1 Summaries -->		
-						<div class="col-12 col-md-4 col-sm-6 blog-1 mt-4">
-							<div class="type-post" style="margin-bottom:0;">
-								<div class="entry-cover">
-									<a href="#"><img src="../images/homepage-img/12.png" alt="Post" /></a>
-								</div>
-								<div class="entry-content">
-									<div class="entry-header">	
-										<span class="post-category"><a href="#">LIST</a></span>
-										<h3 class="entry-title-md-summary"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elitet est nulla</a></h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur nunc ante, eget euismod neque pulvinar blandit.</p>
-									</div>								
-								</div>
-							</div>
-						</div>
-						<!-- 1 Summaries -->		
-						<div class="col-12 col-md-4 col-sm-6 blog-1 mt-4">
-							<div class="type-post" style="margin-bottom:0;">
-								<div class="entry-cover">
-									<a href="#"><img src="../images/homepage-img/12.png" alt="Post" /></a>
-								</div>
-								<div class="entry-content">
-									<div class="entry-header">	
-										<span class="post-category"><a href="#">LIST</a></span>
-										<h3 class="entry-title-md-summary mb-2"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elitet est nulla</a></h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur nunc ante, eget euismod neque pulvinar blandit.</p>
-									</div>								
+							<!-- End of .col-lg-3 -->
+							<div class="col-lg-4 col-md-4">
+								<div class="axil-latest-post">
+									<div class="media post-block m-b-xs-20">
+										<figure class="fig-container">
+											<a href="#"><img src="../assets/images/homepage-img/10.png"
+													alt="latest post"></a>
+										</figure>
+										<div class="media-body">
+											<div class="post-cat-group m-b-sm-0">
+												<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+											</div>
+											<h3 class="axil-post-title-sm hover-line hover-line"><a
+													href="../post-format-standard.html">One-on-one with Tom Thompson, executive director of the Nelson Chamber of Commerce</a></h3>
+											<div class="post-metas">
+												<ul class="list-inline">
+													<li>By <a href="#">Amachea Jajah</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
+							<!-- End of .col-lg-4 -->
 						</div>
-						
-					</div><!-- Row /- -->
-				</div><!-- Container /- -->
-			</div><!-- /List Articles-->
-
-			<!-- Promoted + Sponsors -->
-			<div class="container-fluid no-left-padding no-right-padding page-content blog-1-post my-0 py-0">
-				<!-- Container -->
-				<div class="container">
-					<hr class="sectionDivider">
-					<div class="row d-flex">
-						<div class="col d-flex justify-content-start">
-							<h3 class="sectionHeading uppercase mb-3" style="border:none;font-size: 12px;">Sponsored</h3>
+						<!-- End of .row -->
+						<div class="row">
+							<div class="col-lg-4 col-md-4">
+								<div class="axil-latest-post">
+									<div class="media post-block m-b-xs-20">
+										<figure class="fig-container">
+											<a href="#"><img src="../assets/images/homepage-img/11.png"
+													alt="latest post"></a>
+										</figure>
+										<div class="media-body">
+											<div class="post-cat-group m-b-sm-0">
+												<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+											</div>
+											<h3 class="axil-post-title-sm hover-line hover-line"><a
+													href="../post-format-standard.html">Craft beer lovers have poured into Wild North Brewing Co. since its opening in Creston</a></h3>
+											<div class="post-metas">
+												<ul class="list-inline">
+													<li>By <a href="#">Amachea Jajah</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End of .col-lg-4 -->
+							<div class="col-lg-4 col-md-4">
+								<div class="axil-latest-post">
+									<div class="media post-block m-b-xs-20">
+										<figure class="fig-container">
+											<a href="#"><img src="../assets/images/homepage-img/12.png"
+													alt="latest post"></a>
+										</figure>
+										<div class="media-body">
+											<div class="post-cat-group m-b-sm-0">
+												<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+											</div>
+											<h3 class="axil-post-title-sm hover-line hover-line"><a
+													href="../post-format-standard.html">Lark Coffee Roasters in Creston has a hot ticket roaster at the helm</a></h3>
+											<div class="post-metas">
+												<ul class="list-inline">
+													<li>By <a href="#">Amachea Jajah</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End of .col-lg-3 -->
+							<div class="col-lg-4 col-md-4">
+								<div class="axil-latest-post">
+									<div class="media post-block m-b-xs-20">
+										<figure class="fig-container">
+											<a href="#"><img src="../assets/images/homepage-img/13.png"
+													alt="latest post"></a>
+										</figure>
+										<div class="media-body">
+											<div class="post-cat-group m-b-sm-0">
+												<a href="#" class="post-cat cat-btn bg-color-blue-two">LIST</a>
+											</div>
+											<h3 class="axil-post-title-sm hover-line hover-line"><a
+													href="../post-format-standard.html">One-on-one with Castlegar Chamber President Derrek Kittson</a></h3>
+											<div class="post-metas">
+												<ul class="list-inline">
+													<li>By <a href="#">Amachea Jajah</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End of .col-lg-4 -->
 						</div>
-						<div class="col d-flex justify-content-end">
-							<a href="#" style="font-size: 12px;">View all Sponsors</a>
-						</div>
+						<!-- End of .row -->
 					</div>
-					<!-- Row -->
-					<div class="row my-0 py-0">
-						<div class="card-group">
-							<div class="card col-12 col-md-4 col-sm-12">
-								<img class="card-img-top" src="../images/homepage-img/sp-5.png" alt="Card image cap">
-								<div class="card-body">
-									<span class="post-category"><a href="#" style="color: #6B6B6B; font-weight: normal; font-size: 11px">Promoted</a></span>
-									<h3 class="entry-title-md-sponsors"><a href="#">Think local first: growing food literacy at the heart of community decisions</a></h3>
-									<p class="card-text">The Trail & District Chamber of Commerce supports the area’s entrepreneurial spirit with many services, including the monthly blog Chamber Stories.</p>
-								</div>
-								<div class="card-footer">
-									<a href="#" class="btn btn-primary">Learn more</a>
-								</div>
-							</div>
-							<div class="card col-12 col-md-4 col-sm-12">
-								<img class="card-img-top" src="../images/homepage-img/sp-6.png" alt="Card image cap">
-								<div class="card-body">
-									<span class="post-category"></span><a href="#" style="color: #6B6B6B; font-weight: normal; font-size: 11px">Sponsored</a><span class="material-icons" style="vertical-align: middle; margin-left:10px; font-size: 16px;"><a href="#">open_in_new</a></span></span>
-									<h3 class="entry-title-md-sponsors"><a href="#">Learn more about the Youth Mean Business program</a></h3>
-									<p class="card-text">The Youth Mean Business (YMB) is an 8-week business start-up, entrepreneurship program for youth and young adults between the ages of 15 and 29. Interested? Learn more.</p>
-								</div>
-								<div class="card-footer">
-									<a href="#" class="btn btn-primary">Learn more</a>
-								</div>
-							</div>
-							<div class="card col-12 col-md-4 col-sm-12">
-								<img class="card-img-top" src="../images/homepage-img/sp-7.png" alt="Card image cap">
-								<div class="card-body">
-									<span class="post-category"><a href="#" style="color: #6B6B6B; font-weight: normal; font-size: 11px">Promoted</a></span>
-									<h3 class="entry-title-md-sponsors"><a href="#">Kootenay golfers: Ready to add to your #golfbucketlist this summer?</a></h3>
-									<p class="card-text">The Kootenays have some of the best golfing experiences in the world. Here are some must-try suggestions for you to add to your #golfbucketlist this summer.</p>
-								</div>
-								<div class="card-footer">
-									<a href="#" class="btn btn-primary">Learn more</a>
-								</div>
-							</div>
-						</div>
-					</div>
+					<!-- End of .grid-wrapper -->
 				</div>
-			</div>
-			<!-- /Promoted + Sponsors -->
+				<!-- End of .container -->
+			</section>
 
-
+				
 			<!-- Billboard -->
-			<div class="container text-center mt-5 mb-3">
-				<img src="../images/ads/billboard_ad.svg" class="billboardAd2 img-fluid mb-4" alt="Responsive image">
+			<div class="container text-center p-t-xs-15 p-t-sm-5 p-b-sm-15 p-t-md-0 p-b-md-0 m-b-md-30">
+				<img src="../assets/ads/Billboard_Ad.jpg" class="img-fluid" alt="Responsive image">
 			</div>
-			<!-- /Billboard -->	
-		</main>
-	</div>
-	
-
-	<!-- Footer -->
-	<footer class="container-fluid bg-grey py-5">
-		<div class="container">
-		   <div class="row">
-			  <div class="col-md-6">
-				 <div class="row">
-					<div class="col-md-7">
-					   <div class="logo-part">
-						  <img src="../images/kootenaybiz_logo_white.png" class="w-75 logo-footer" >
-						  <p>KootenayBiz.com is owned and operated by KPI Media Inc. We highlight business news and trends in the Kootenay and Boundary regions of British Columbia. </p>
-						  <p>KPI Media Suite 100, 100 - 7th Ave. S. <br>Cranbrook, BC <br>V1C 2J4 Canada</p>
+			<!-- /Billboard -->
+		
+		<!--Promoted-->
+		<div class="section-gap p-t-xs-0 p-t-sm-15 p-t-md-15 p-b-md-30 bg-grey-light-three">
+			<hr class="mb-4">
+			<div class="container">
+				<div class="section-title">
+					<div class="post-cat-group m-b-xs-10 m-b-md-10">
+						<a href="#"
+							class="post-cat cat-btn bg-grey-dark-four">SPONSORED CONTENT</a>
+					</div>
+					<a href="#" class="btn-link m-b-xs-10 m-b-md-10">View all sponsored content</a>
+				</div>
+				<div class="row">
+					<div class="col-6 col-md-3 col-lg-3">
+						<div class="axil-latest-post">
+							<div class="media post-block m-b-xs-20">
+								<figure class="fig-container">
+									<a href="../post-format-promoted.html"><img src="../assets/images/homepage-img/sp-11.png"
+											alt="latest post"></a>
+								</figure>
+								<div class="media-body">
+									<h3 class="sponsoredHeading"><a
+											href="../post-format-promoted.html">The City of Cranbrook’s data portal is the answer to accessing the Key City’s hidden figures</a></h3>
+									<div class="post-metas">
+										<ul class="list-inline" style="font-size: 'Roboto', sans-serif;">
+											<li>By <a href="#" class="sponsoredLink">City of Cranbrook</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="col-md-5 px-4 mb-4">
-					   <h6> Contact Us</h6>
-					   <p>Our office is nestled in the Rocky Mountain community of Cranbrook, British Columbia.</p>
-					   <a class="btn btn-lg btn-block btn1" style="width: 100%; font-size: 12px;" href="../contact/submit.html">Share your story</a>
-					   <a class="btn btn-lg btn-block btn1" style="width: 100%; font-size: 12px;" href="../contact/subscribe.html">Sign up to KootenayBiz</a>
+					<div class="col-6 col-md-3 col-lg-3">
+						<div class="axil-latest-post">
+							<div class="media post-block m-b-xs-20">
+								<figure class="fig-container">
+									<a href="../post-format-promoted.html"><img src="../assets/images/homepage-img/sp-12.png"
+											alt="latest post"></a>
+								</figure>
+								<div class="media-body">
+									<h3 class="sponsoredHeading"><a
+										href="../post-format-promoted.html">Justine MacDonald is an expert in real estate tech tools</a></h3>
+									<div class="post-metas">
+										<ul class="list-inline" style="font-size: 'Roboto', sans-serif;">
+											<li>By <a href="#" class="sponsoredLink">Sandy Smith Properties</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-				 </div>
-			  </div>
-			  <div class="col-md-6">
-				 <div class="row">
-					<div class="col-md-6 px-4">
-					   <h6> Navigation</h6>
-					   <div class="row ">
-						  <div class="col-md-12">
-							 <ul>
-								<li> <a href="#"> Communities</a> </li>
-								<li> <a href="#"> Industries</a> </li>
-								<li> <a href="#"> The Lists</a> </li>
-								<li> <a href="#"> Events</a> </li>
-								<li> <a href="#"> Sponsors</a> </li>
-								<li> <a href="#"> Contact</a> </li>
-							 </ul>
-						  </div>
-						  
-					   </div>
+					<div class="col-6 col-md-3 col-lg-3">
+						<div class="axil-latest-post">
+							<div class="media post-block m-b-xs-20">
+								<figure class="fig-container">
+									<a href="../post-format-promoted.html"><img src="../assets/images/homepage-img/sp-13.png"
+											alt="latest post"></a>
+								</figure>
+								<div class="media-body">
+									<h3 class="sponsoredHeading"><a
+										href="../post-format-promoted.html">The #BuyBasin Festival spotlights Kootenay businesses to attract attention to their brand online</a></h3>
+									<div class="post-metas">
+										<ul class="list-inline" style="font-size: 'Roboto', sans-serif;">
+											<li>By <a href="#" class="sponsoredLink">Columbia Basin Trust</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="col-md-6">
-					   <h6> Follow us</h6>
-					   <div class="social">
-						  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-						  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-						  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-					   </div>
-					   <form class="form-footer my-3">
-						  <input type="text"  placeholder="search here...." name="search">
-						  <input type="button" value="Go" >
-					   </form>
-					   <p>©2021 KPI Media Inc. All Rights Reserved.</p>
+					<div class="col-6 col-md-3 col-lg-3">
+						<div class="axil-latest-post">
+							<div class="media post-block m-b-xs-20">
+								<figure class="fig-container">
+									<a href="../post-format-promoted.html"><img src="../assets/images/homepage-img/sp-14.png"
+											alt="latest post"></a>
+								</figure>
+								<div class="media-body">
+									<h3 class="sponsoredHeading"><a
+										href="../post-format-promoted.html">Laundry list: Keeping Kootenay businesses clean and green</a></h3>
+									<div class="post-metas">
+										<ul class="list-inline" style="font-size: 'Roboto', sans-serif;">
+											<li>By <a href="#" class="sponsoredLink">East Kootenay Regional Laundry</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-				 </div>
-			  </div>
-		   </div>
+				</div>
+			</div>
+			<hr>
 		</div>
-	</footer>
-	<!-- /Footer -->
-	
-	<!-- JQuery v1.12.4 -->
-	<script src="../js/jquery-1.12.4.min.js"></script>
+		<!-- End of PROMOTED-->
 
-	<!-- Library - Js -->
-	<script src="../js/popper.min.js"></script>
-	<script src="../js/lib.js"></script>
-	
-	<!-- Library - Theme JS -->
-	<script src="../js/functions.js"></script>
-	
+
+		<!-- footer starts -->
+		<footer class="page-footer bg-color-blue-four m-t-md-0">
+			<div class="container">
+				<div class="footer-top m-b-md-0 p-b-md-0  p-t-md-30">
+					<div class="row">
+						<div class="col-12 col-lg-3 col-md-3 col-6">
+							<div class="footer-widget">
+								<div>
+									<div class="footer-logo-container">
+										<a href="../index.html">
+											<img src="../assets/images/kootenaybiz_logo_white.png" alt="footer logo" class="footer-logo m-b-md-10">
+										</a>
+									</div>
+									<!-- End of .brand-logo-container -->
+								</div>
+								<p class="mt-3" style="font-size: 1.4rem; line-height: 1.5;">KootenayBiz.com is owned and operated by KPI Media Inc. We highlight business news and trends in the Kootenay and Boundary regions of British Columbia.</p>
+								<p class="axil-copyright-txt" style="font-size: 1.4rem; line-height: 1.5;">
+									© 2021. All rights reserved by KootenayBiz. 
+								</p>							</div>
+							<!-- End of .footer-widget -->
+						</div>
+						<div class="col-12 col-lg-1 col-md-1 col-6"></div>
+						<!-- End of .col-lg-2 -->
+						<div class="col-12 col-lg-2 col-md-2 col-6">
+							<div class="footer-widget">
+								<h2 class="footer-widget-title">
+									Navigation
+								</h2>
+								<ul class="footer-nav">
+									<li><a href="#">Communities</a></li>
+									<li><a href="#">Industries</a></li>
+									<li><a href="#">The Lists</a></li>
+									<li><a href="#">Events</a></li>
+									<li><a href="#">Sponsored Content</a></li>
+
+								</ul>
+								<!-- End of .footer-nav -->
+							</div>
+						</div>
+						<!-- End of .col-lg-3 -->
+						<div class="col-12 col-lg-3 col-md-3 col-6">
+							<div class="footer-widget">
+								<h2 class="footer-widget-title">
+									Contact Us
+								</h2>
+								<ul class="footer-nav">
+									<li><a href="#">Advertise</a></li>
+									<li><a href="#">Share your story with KootenayBiz</a></li>
+									<li><a href="#">Follow KootenayBiz</a></li>
+									<li><a href="#">About KootenayBiz</a></li>
+									<li><a href="#">Contact Us</a></li>
+									<li><a href="#">Newsletters</a></li>
+								</ul>
+								<!-- End of .footer-nav -->
+							</div>
+							<!-- End of .footer-widget -->
+						</div>
+						<!-- End of .col-lg-3 -->
+						<div class="col-12 col-lg-3 col-md-3 col-6 m-t-xs-0 m-t-md-40">
+							<div class="d-block m-b-xs-10 m-b-md-20">
+								<a href="#"><button class="btn btn-primary btn-lg btn-block m-b-xs-10 p-r-xs-10 p-l-xs-10">FOLLOW KOOTENAYBIZ</button></a>
+								<a href="#"><button class="btn btn-primary btn-lg btn-block p-r-xs-10 p-l-xs-10">SHARE YOUR STORY</button></a>
+							</div>
+							<div class="footer-social-share-wrapper">
+								<div class="footer-social-share">
+									<div class="axil-social-title">Find us here</div>
+									<ul class="social-share social-share__with-bg">
+										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- End of .col-lg-3 -->
+
+					</div>
+					<!-- End of .row -->
+				</div>
+			</div>
+			<!-- End of .container -->
+		</footer>
+		<!-- End of footer -->
+	</div>
+	<!-- End of .main-content -->
+	<!-- Javascripts
+    	======================================= -->
+	<!-- jQuery -->
+	<script src="../assets/js/vendor/jquery.min.js"></script>
+	<script src="../assets/js/vendor/jquery-migrate.min.js"></script>
+	<!-- jQuery Easing Plugin -->
+	<script src="../assets/js/vendor/easing-1.3.js"></script>
+	<!-- Waypoints js -->
+	<script src="../assets/js/vendor/jquery.waypoints.min.js"></script>
+	<!-- Owl Carousel JS -->
+	<script src="../assets/js/vendor/owl.carousel.min.js"></script>
+	<!-- Slick Carousel JS -->
+	<script src="../assets/js/vendor/slick.min.js"></script>
+	<!-- Bootstrap js -->
+	<script src="../assets/js/vendor/bootstrap.bundle.min.js"></script>
+	<script src="../assets/js/vendor/isotope.pkgd.min.js"></script>
+	<!-- Counter up js -->
+	<script src="../assets/js/vendor/jquery.counterup.js"></script>
+	<!-- Magnific Popup js -->
+	<script src="../assets/js/vendor/jquery.magnific-popup.min.js"></script>
+	<!-- Nicescroll js -->
+	<script src="../assets/js/vendor/jquery.nicescroll.min.js"></script>
+	<!-- IF ie -->
+	<script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+	<!-- Plugins -->
+	<script src="../assets/js/plugins.js"></script>
+	<!-- Custom Script -->
+	<script src="../assets/js/main.js"></script>
 </body>
+
 </html>
