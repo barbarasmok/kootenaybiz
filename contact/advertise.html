@@ -1,63 +1,87 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="zxx">
+<!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-	<title>Advertise - KootenayBiz</title>
-
-	<!-- Standard Favicon -->
-	<link rel="icon" type="image/x-icon" href="../images/favicon.svg"/>
+<!-- Basic metas
+    	======================================== -->
+		<meta charset="utf-8">
+		<meta name="author" content="">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<!-- Mobile specific metas
+			======================================== -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Page Title
+			======================================== -->
+		<title>KootenayBiz</title>
+		<!-- links for favicon
+			======================================== -->
+		<link rel="apple-touch-icon" sizes="57x57" href="../assets/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="../assets/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="../assets/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="../assets/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="../assets/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="../assets/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="../assets/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="../assets/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="../assets/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+		<link rel="manifest" href="../assets/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="../assets/favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		<!-- Icon fonts
+			======================================== -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,500i,700,700i,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Aleo&family=Crete+Round&family=Slabo+27px&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" type="text/css" href="../assets/css/fontawesome-all.min.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/iconfont.css">
+		<!-- css links
+			======================================== -->
+		<!-- Bootstrap link -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/vendor/bootstrap.min.css">
+		<!-- Link Swiper's CSS -->
+		<link rel="stylesheet" href="../assets/css/vendor/owl.carousel.min.css">
+		<!-- Magnific popup -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/vendor/magnific-popup.css">
+		<!-- Animate css -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/vendor/animate.css">
 	
-	<!-- Library - Google Font Familys -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-	
-	<!-- Library -->
-    <link href="../css/lib.css" rel="stylesheet">
-	
-	<!-- Custom - Common CSS -->
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/rtl.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="../style.css">
-
-	<!--[if lt IE 9]>
-		<script src="js/html5/respond.min.js"></script>
-    <![endif]-->
-
-	<!--[if lt IE 9]>
-		<script src="js/html5/respond.min.js"></script>
-    <![endif]-->
-	
+		<!-- Custom css -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 </head>
+
+<style>
+
+.navbar {
+    margin: auto;
+    justify-content: space-around;
+}
+
+img {
+    vertical-align: -2px;
+}
+</style>
 
 <body data-offset="200" data-spy="scroll" data-target=".ownavigation">
 	<!-- Header Section -->
-	<header class="container-fluid no-left-padding no-right-padding header_s header-fix header_s7">
+	<header class="container-fluid px-auto mx-auto header_s header-fix header_s7" style="background-color: #051D51;">
 		<!-- Container -->
 		<div class="container">	
 			<!-- Menu Block -->
-			<div class="container-fluid no-left-padding no-right-padding menu-block" style="border-top: none;">
+			<div class="container-fluid px-auto mx-auto menu-block" style="border-top: none">
 				<nav class="navbar ownavigation navbar-expand-lg">
-					<div class="d-flex col-lg-2" style="padding:20px; text-align: center; margin:auto;">
-						<a class="navbar-brand" href="../index.html" title="Logo"><img style="max-width: 140%;" src="../images/kootenaybiz_logo_NEW.png"></a>
+					<div class="d-flex col-lg-3 col-md-3 col-8 p-t-md-20 p-b-md-20" style="text-align: center; margin:auto;">
+						<a class="navbar-brand" style="font-size:0;" href="../index.html" title="Logo"><img class="col-md-12 col-12" src="../assets/images/kootenaybiz_logo_white.png"></a>
 					</div>					
 				</nav>	
 			</div><!-- Menu Block /- -->
@@ -67,12 +91,17 @@
 	<div class="main-container">	
 		<main class="site-main">
 			<!-- Page Content -->
-			<div class="container-fluid no-left-padding no-right-padding no-top-padding page-content blog-single cover-fullwidth" style="padding-bottom: 0;">
+			<div class="container-fluid px-0 page-content blog-single cover-fullwidth" style="padding-bottom: 0;">
 
-				<div class="jumbotron text-center py-5" style="background-image: url(../images/contact-img/advertise-banner.png); height: 450px; border-radius: 0;">
-					<h1 class="display-4 text-white font-weight-bold col-12 col-md-7 mx-auto mt-5">Would you like to advertise on KootenayBiz?</h1>
-					<p class="lead text-white col-12 col-md-8 mx-auto" style="line-height: 1.6;">We can help you share your brand story with our readers. Please provide your company name in the form below along with the main message or story you would like to promote.</p>
-				  </div>
+				<div class="jumbotron text-center p-t-xs-50 p-t-md-50 p-b-md-40" style="background-image: url(../assets/images/contact-img/advertise-banner.png); height: 450px; border-radius: 0;">
+					<h1 class="text-white font-weight-bold col-12 col-md-6 mx-auto">Would you like to advertise on KootenayBiz?</h1>
+					<p class="mid text-white col-12 col-md-6 mx-auto" style="line-height: 1.6; font-weight: bold;">We can help you share your brand story with our readers. Please provide your company name in the form below along with the main message or story you would like to promote.</p>
+					<div class="row mx-auto text-center">
+						<div class="col-12 col-md-4 mx-auto text-center mb-5">
+							<a href="#follow"><button class="btn btn-primary btn-lg btn-block m-b-xs-10 p-r-xs-10 p-l-xs-10">ADVERTISE WITH KOOTENAYBIZ TODAY</button></a>
+						</div>
+					</div> 
+				</div>
 
 				<!-- two columns -->
 				<div class="container my-5 mx-auto px-0">
@@ -118,201 +147,206 @@
 						</div>
 					</div>
 					
-				</div>		
+				</div>	
 
-				<!-- Subscribe form -->
-				<div class="container my-5 mx-auto px-0">
-					<div class="contact-form col-12 col-md-9 mx-auto" style="background-color: #f7f7f7;">
+
+				<!-- Advertise form -->
+				<div class="container m-t-xs-60 mx-auto px-0" id="follow">
+					<div class="contact-form col-12 col-md-8 mx-auto p-t-xs-30 p-b-xs-30" style="background-color: #f7f7f7;">
 						<div class="row">
 							<div class="col-12 col-md-12 col-sm-6 mt-4 px-5">
-								<h3 class="entry-title-lg uppercase mb-1 mt-4 font-weight-bold text-center col-12 col-md-8 mx-auto" style="font-size: 30px;">Advertise with KootenayBiz</h3>
-								<form class="py-4">
-									<div class="row">
-										<div class="form-group col-md-6">
-											<input type="text" style="background-color: #FFF;" class="form-control" placeholder="Your Name" name="contact-name" id="input_name" required>
+								<h3 class="uppercase mb-1 mt-4 font-weight-bold text-center col-12 col-md-8 mx-auto" style="font-size: 30px; line-height: 1.2;">THE PERFECT NEWSLETTER FOR KOOTENAY LOVERS</h3>
+								
+								<div class="axil-contact-form-wrapper p-t-xs-10">
+									<form class="axil-contact-form row no-gutters px-5">
+										<div class="form-group col-12 col-md-6 px-2">
+											<label for="contact-name">Name</label>
+											<input type="text" name="contact-name" id="contact-name">
 										</div>
-										<div class="form-group col-md-6">
-											<input type="text" style="background-color: #FFF;" class="form-control" placeholder="Your Email" name="contact-email" id="input_email" required>
+	
+										<div class="form-group col-12 col-md-6 px-2">
+											<label for="contact-email">Email</label>
+											<input type="email" name="contact-email" id="contact-email">
 										</div>
-									</div>
-									<div class="row">
-										<div class="form-group col-md-6">
-											<input type="text" style="background-color: #FFF;" class="form-control" placeholder="Where do you live?" name="contact-name" id="input_name" required>
+
+										<div class="form-group col-12 col-md-6 px-2">
+											<label for="contact-text">Where do you live?</label>
+											<input type="text" name="contact-text" id="contact-text">
 										</div>
-										<div class="form-group col-md-6">
-											<input type="text" style="background-color: #FFF;" class="form-control" placeholder="What's your company?" name="contact-name" id="input_name" required>
+	
+										<div class="form-group col-12 col-md-6 px-2">
+											<label for="exampleFormControlSelect1">Select your package</label>
+											<select class="form-control" id="select-option" style="background-color: white;">
+												<option>Web Package</option>
+												<option>Newsletter Package</option>
+												<option>Content Package</option>
+												<option>Exclusive Newsletter Package</option>
+											</select>
 										</div>
-									</div>
-									<div class="row mx-auto text-center d-flex justify-content-center mt-3">
-										<div class="form-check col-md-3">
-											<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-											<label class="form-check-label" style="padding-left: 0;" for="flexCheckDefault">
-											Website Package
-											</label>
+
+										<p class="text-center small text-center mx-auto m-b-md-15 m-b-t-0">I will never share your email address and you can unsubscribe in a single click.</p>
+
+										<div class="col-12 text-center mx-auto">
+											<button class="btn btn-primary m-t-xs-0 m-t-lg-0 m-b-md-30">ADVERTISE WITH KOOTENAYBIZ</button>
 										</div>
-										<div class="form-check col-md-3">
-											<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-											<label class="form-check-label" style="padding-left: 0;" for="flexCheckDefault">
-											Newsletter Package
-											</label>
-										</div>
-										<div class="form-check col-md-3">
-											<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-											<label class="form-check-label" style="padding-left: 0;" for="flexCheckDefault">
-											Content Package
-											</label>
-										</div>
-										<div class="form-check col-md-3">
-											<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-											<label class="form-check-label" style="padding-left: 0;" for="flexCheckDefault">
-											Exclusive Newsletter Package
-											</label>
-										</div>
-									</div>
-									<div class="row">
-										<div class="form-group col-md-6 mx-auto mt-2">
-											<button id="btn_submit" name="submit" style="width: 100%;" class="submit py-2 my-0">Send</button>
-										</div>
-									</div>
-									</div>
-								</form>
+									</form>
+									<!-- End of .axil-contact-form -->
+								</div>
+								<!-- End of .axil-contact-form-wrapper -->
+							</div>
+							<!-- End of .axil-contact-form-block -->
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- /Subscribe form -->
+				<!-- /Subscribe form -->	
 
-				<!-- REMINDER -->
+				
 				<div class="container my-5 mx-auto px-0">
-					<h3 class="font-weight-bold mt-5  mb-3 text-center">A GLENTE REMINDER</h3>
-					<p style="line-height: 1.6; font-size: 15px; font-weight: lighter;" class="col-lg-8 col-12 text-center mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus tristique est, commodo imperdiet felis tempus eget. Cras massa metus, efficitur in pellentesque nec, suscipit et mi. Nunc ut neque tempus, pharetra dui sit amet, egestas purus. Fusce eu sapien vitae est euismod ultricies vitae nec enim. Praesent condimentum venenatis ullamcorper.</p>
-				</div>	
-
-				<style>
-					.btn1,
-					.btn2,
-					.btn3 {
-						font-size: 1.3em;
-						padding: 10px;
-						margin: 5px auto;
-						display: flex;
-						font-weight: 900;
-						align-items: center;
-						justify-content: center;
-					}
-
-					.btn1 {
-						background-color: #082972;
-						color: #FFF;
-					}
-					.btn1:hover {
-						background-color: #051D51;
-						color: #FFF;
-					}
-					.btn2 {
-						background-color: #FF270A;
-						color: #FFF;
-					}
-					.btn2:hover {
-						background-color: #C30101;
-						color: #FFF;
-					}
-					.btn3 {
-						background-color: #3E71E2;
-						color: #FFF;
-					}
-					.btn3:hover {
-						background-color: #2556C1;
-						color: #FFF;
-					}
-					.btn4 {
-						font-size: 1.3em;
-						padding: 10px;
-						margin: 5px auto;
-						display: inline;
-						font-weight: 900;
-						align-items: center;
-						justify-content: center;
-						background-color: #05112A;
-						color: #FFF;
-					}
-					img {
-						vertical-align: -2px;
-					}
-
-					.footerText {
-						color: white;
-						font-weight: 900;
-						font-size: 1.2em;
-					}
-					footer {
-						background-color: #082972;
-						margin: auto;
-						text-align: center;
-						padding: 10px;
-						color: white;
-						position: sticky;
-					}
-				</style>
-
-							<!-- Contact -->
-			<div class="container-fluid no-left-padding no-right-padding page-content blog-1-post py-0 my-5">
-				<!-- Container -->
-				<div class="container">
-					<!-- Row -->
-					<div class="row justify-content-center col-md-9 mx-auto">
-						<div class="col-12 col-md-4 col-sm-6 mx-auto px-1">
-							<aside class="widget widget_newsletter">
-								<div class="newsletter-box">
-									<i class="ion-ios-email" style="color: #FFF;"></i>
-									<h4>Sign Up to KootenayBiz FREE Newsletter</h4>
-									<a class="btn btn-lg btn-block btn1 mt-4" href="subscribe.html">Learn more</a>
-								</div>
-							</aside>
+					<hr class="sectionDivider">
+					<div class="row mx-auto text-center col-12 col-md-8 m-t-md-40">
+						<div class="col-md-6 mx-auto text-center"> 
+							<a href="share.html"><button class="btn btn-primary btn-lg btn-block m-b-xs-10 p-r-xs-10 p-l-xs-10" style="background-color: var(--secondary-color); border:none;">SHARE YOUR STORY</button></a>
 						</div>
-						<div class="col-12 col-md-4 col-sm-6 mx-auto px-1">
-							<aside class="widget widget_newsletter">
-								<div class="newsletter-box-2">
-									<i class="ion-ios-paper" style="color: #FFF;"></i>
-									<h4>Share your story with KootenayBiz</h4>
-									<a class="btn btn-lg btn-block btn1 mt-4" href="submit.html">Learn more</a>
-								</div>
-							</aside>	
-						</div>
-						<div class="col-12 col-md-4 col-sm-6 mx-auto px-1">
-							<aside class="widget widget_newsletter">
-								<div class="newsletter-box-2">
-									<i class="ion-ios-person" style="color: #FFF;"></i>
-									<h4>Learn about <br>KootenayBiz</h4>
-									<a class="btn btn-lg btn-block btn1 mt-4" href="about.html">Learn more</a>
-								</div>
-							</aside>
+						<div class="col-md-6 mx-auto text-center"> 
+							<a href="../communities/communities.html"><button class="btn btn-primary btn-lg btn-block m-b-xs-10 p-r-xs-10 p-l-xs-10">COMMUNITIES</button></a>
 						</div>
 					</div>
-					<hr class="sectionDivider col-md-8">
-					<div class="row my-5 mx-auto px-0">
-						<div class="col-12 col-md-8 mx-auto text-center">
-							<p style="line-height: 1.6; font-size: 12px; font-weight: lighter;">KootenayBiz.com is owned and operated by KPI Media Inc. We highlight business news and trends in the Kootenay and Boundary regions of British Columbia. ©2021 KPI Media Inc. All Rights Reserved.</p>
+					<div class="row mx-auto text-center col-12 col-md-8">
+						<div class="col-md-6 mx-auto text-center"> 
+							<a href="../industries/industries.html"><button class="btn btn-primary btn-lg btn-block m-b-xs-10 p-r-xs-10 p-l-xs-10">INDUSTRIES</button></a>
+							<a href="../thelists/thelists.html"><button class="btn btn-primary btn-lg btn-block m-b-xs-10 p-r-xs-10 p-l-xs-10">THE LISTS</button></a>
+						</div>
+						<div class="col-md-6 mx-auto text-center"> 
+							<a href="../events/events.html"><button class="btn btn-primary btn-lg btn-block m-b-xs-10 p-r-xs-10 p-l-xs-10">EVENTS</button></a>
+							<a href="../sponsored/sponsored-content.html"><button class="btn btn-primary btn-lg btn-block m-b-xs-10 p-r-xs-10 p-l-xs-10" style="background-color: var(--grey-dark-four); border:none;">SPONSORED CONTENT</button></a>
 						</div>
 					</div>
 				</div>
+				<div class="row my-5 mx-auto px-0">
+					<div class="col-12 col-md-6 mx-auto">
+						<p style="line-height: 1.6;font-size: 13px;">Remember, this newsletter is designed to keep you informed about business news and developments in the Kootenays. If you enjoyed it, invite a friend to subscribe!</p>
+						<p style="line-height: 1.6;font-size: 13px;">KootenayBiz.com is owned and operated by KPI Media Inc. We highlight business news and trends in the Kootenay and Boundary regions of British Columbia. ©2021 KPI Media Inc. All Rights Reserved.</p>
+						<p style="line-height: 1.6;font-size: 13px;">To help us fulfill your request to receive information from snoriderswest.com via e-mail, please add <a href="mailto:distribution@kpimedia.com">distribution@kpimedia.com</a> to your Address Book or Safe List. Not interested in receiving this newsletter anymore? Click here to unsubscribe.</p>
+					</div>
+				</div>
+				
+	</main>
+
+	
+		<!-- footer starts -->
+		<footer class="page-footer bg-color-blue-four m-t-md-30">
+			<div class="container">
+				<div class="footer-top m-b-md-0 p-b-md-0  p-t-md-30">
+					<div class="row">
+						<div class="col-12 col-lg-3 col-md-3 col-6">
+							<div class="footer-widget">
+								<div>
+									<div class="footer-logo-container">
+										<a href="index.html">
+											<img src="../assets/images/kootenaybiz_logo_white.png" alt="footer logo" class="footer-logo m-b-md-10">
+										</a>
+									</div>
+									<!-- End of .brand-logo-container -->
+								</div>
+								<p class="mt-3" style="font-size: 1.4rem; line-height: 1.5;">KootenayBiz.com is owned and operated by KPI Media Inc. We highlight business news and trends in the Kootenay and Boundary regions of British Columbia.</p>
+								<p class="axil-copyright-txt" style="font-size: 1.4rem; line-height: 1.5;">
+									© 2021. All rights reserved by KootenayBiz. 
+								</p>							</div>
+							<!-- End of .footer-widget -->
+						</div>
+						<div class="col-12 col-lg-1 col-md-1 col-6"></div>
+						<!-- End of .col-lg-2 -->
+						<div class="col-12 col-lg-2 col-md-2 col-6">
+							<div class="footer-widget">
+								<h2 class="footer-widget-title">
+									Navigation
+								</h2>
+								<ul class="footer-nav">
+									<li><a href="#">Communities</a></li>
+									<li><a href="#">Industries</a></li>
+									<li><a href="#">The Lists</a></li>
+									<li><a href="#">Events</a></li>
+									<li><a href="#">Sponsored Content</a></li>
+
+								</ul>
+								<!-- End of .footer-nav -->
+							</div>
+						</div>
+						<!-- End of .col-lg-3 -->
+						<div class="col-12 col-lg-3 col-md-3 col-6">
+							<div class="footer-widget">
+								<h2 class="footer-widget-title">
+									Contact Us
+								</h2>
+								<ul class="footer-nav">
+									<li><a href="#">Advertise</a></li>
+									<li><a href="#">Share your story with KootenayBiz</a></li>
+									<li><a href="#">Follow KootenayBiz</a></li>
+									<li><a href="#">About KootenayBiz</a></li>
+									<li><a href="#">Contact Us</a></li>
+									<li><a href="#">Newsletters</a></li>
+								</ul>
+								<!-- End of .footer-nav -->
+							</div>
+							<!-- End of .footer-widget -->
+						</div>
+						<!-- End of .col-lg-3 -->
+						<div class="col-12 col-lg-3 col-md-3 col-6 m-t-xs-0 m-t-md-40">
+							<div class="d-block m-b-xs-10 m-b-md-20">
+								<a href="#"><button class="btn btn-primary btn-lg btn-block m-b-xs-10 p-r-xs-10 p-l-xs-10">FOLLOW KOOTENAYBIZ</button></a>
+								<a href="#"><button class="btn btn-primary btn-lg btn-block p-r-xs-10 p-l-xs-10">SHARE YOUR STORY</button></a>
+							</div>
+							<div class="footer-social-share-wrapper">
+								<div class="footer-social-share">
+									<div class="axil-social-title">Find us here</div>
+									<ul class="social-share social-share__with-bg">
+										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- End of .col-lg-3 -->
+
+					</div>
+					<!-- End of .row -->
+				</div>
 			</div>
-		</main>
-
-		
-	<footer class="mt-5">
-		<a href="https://kootenaybiz.com/" class="footerText">kootenaybiz.com</a>
-	</footer>
-	
-	<!-- JQuery v1.12.4 -->
-	<script src="../js/jquery-1.12.4.min.js"></script>
-
-	<!-- Library - Js -->
-	<script src="../js/popper.min.js"></script>
-	<script src="../js/lib.js"></script>
-	
-	<!-- Library - Theme JS -->
-	<script src="../js/functions.js"></script>
-	
+			<!-- End of .container -->
+		</footer>
+		<!-- End of footer -->
+	</div>
+	<!-- End of .main-content -->
+	<!-- Javascripts
+    	======================================= -->
+	<!-- jQuery -->
+	<script src="../assets/js/vendor/jquery.min.js"></script>
+	<script src="../assets/js/vendor/jquery-migrate.min.js"></script>
+	<!-- jQuery Easing Plugin -->
+	<script src="../assets/js/vendor/easing-1.3.js"></script>
+	<!-- Waypoints js -->
+	<script src="../assets/js/vendor/jquery.waypoints.min.js"></script>
+	<!-- Owl Carousel JS -->
+	<script src="../assets/js/vendor/owl.carousel.min.js"></script>
+	<!-- Slick Carousel JS -->
+	<script src="../assets/js/vendor/slick.min.js"></script>
+	<!-- Bootstrap js -->
+	<script src="../assets/js/vendor/bootstrap.bundle.min.js"></script>
+	<script src="../assets/js/vendor/isotope.pkgd.min.js"></script>
+	<!-- Counter up js -->
+	<script src="../assets/js/vendor/jquery.counterup.js"></script>
+	<!-- Magnific Popup js -->
+	<script src="../assets/js/vendor/jquery.magnific-popup.min.js"></script>
+	<!-- Nicescroll js -->
+	<script src="../assets/js/vendor/jquery.nicescroll.min.js"></script>
+	<!-- IF ie -->
+	<script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+	<!-- Plugins -->
+	<script src="../assets/js/plugins.js"></script>
+	<!-- Custom Script -->
+	<script src="../assets/js/main.js"></script>
 </body>
+
 </html>
