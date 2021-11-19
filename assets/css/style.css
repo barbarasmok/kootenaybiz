@@ -5475,7 +5475,7 @@ select {
 	width: 100%;
 	height: auto;
 	border: none;
-	background: transparent;
+	background: var(--color-white);
 	font-family: var(--secondary-font);
 	font-size: 1.6rem;
 	line-height: 3rem;
@@ -5560,7 +5560,7 @@ select {
 
 .form-group {
 	position: relative;
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 }
 
 .form-group.focused input[type="text"]+label,
