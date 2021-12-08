@@ -3849,6 +3849,10 @@ figure {
 	.underline {
 		width: 300px;
 	}
+
+	.underline2 {
+		width: 400px;
+	}
 }
 
 .img-container {
@@ -3867,6 +3871,11 @@ figure {
 }
 
 .underline {
+	border-bottom: solid 4px var(--primary-color);
+	width: 230px;
+}
+
+.underline2 {
 	border-bottom: solid 4px var(--primary-color);
 	width: 230px;
 }
@@ -3926,6 +3935,9 @@ figure {
 	}
 	.underline {
 		width: 310px;
+	}
+	.underline2 {
+		width: 500px;
 	}
 }
 
