@@ -5933,6 +5933,8 @@ input[type="radio"]+label::after {
 }
 .post-details-sponsors p {
 	font-family: 'Aleo', serif;
+	font-weight: 300;
+	color: var(--grey-dark-three);
 }
 
 .post-details-sponsors ul {
@@ -5945,6 +5947,10 @@ input[type="radio"]+label::after {
 
 .post-details-sponsors ol li {
 	margin-bottom: 3rem;
+}
+
+.post-details-sponsors strong {
+	color:#000;
 }
 
 
