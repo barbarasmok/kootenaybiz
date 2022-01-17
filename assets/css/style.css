@@ -5939,6 +5939,15 @@ input[type="radio"]+label::after {
 	font-family: 'Aleo', serif;
 }
 
+.post-details-sponsors ol {
+	font-family: 'Aleo', serif;
+}
+
+.post-details-sponsors ol li {
+	margin-bottom: 3rem;
+}
+
+
 @media (max-width: 1199px) {
 	.post-details__social-share {
 		position: static;
