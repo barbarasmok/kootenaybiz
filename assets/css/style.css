@@ -9053,10 +9053,13 @@ article li {
 
 figcaption {
 	font-family: var(--secondary-font);
-	font-size: 1.3rem;
+	font-style: italic;
+	font-size: 1.5rem;
 	line-height: 2rem;
 	color: var(--grey-dark-four);
 	margin: 2rem 0 0;
+	padding-bottom: 2rem;
+	border-bottom: solid var(--grey-light-two) 0.5px;
 }
 
 
