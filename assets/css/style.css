@@ -5481,6 +5481,10 @@ input[type="password"],
 input[type="email"],
 input[type="number"],
 input[type="file"],
+input[type="date"],
+input[type="location"],
+input[type="contact"],
+input[type="contact"],
 textarea,
 select {
 	display: block;
