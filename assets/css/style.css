@@ -5394,6 +5394,11 @@ span.video-play-btn {
 	margin-left: 0.3rem;
 }
 
+.post-details p {
+ font-family: var(--primary-font);
+ color:var(--grey-dark-four);
+}
+
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .show>.btn-primary.dropdown-toggle:focus,
@@ -6000,6 +6005,9 @@ input[type="radio"]+label::after {
 	font-style: var(--primary-font);
 }
 
+strong {
+	color: var(--grey-dark-five);
+}
 
 @media (max-width: 1199px) {
 	.post-details__social-share {
@@ -9033,6 +9041,9 @@ article ul {
 
 article li {
 	margin-bottom: 1rem;
+	font-family: var(--primary-font);
+	color: var(--grey-dark-four);
+	font-weight: 300;
 }
 
 .single-blog-wrapper {
