@@ -3736,7 +3736,7 @@ html {
 body {
 	position: relative;
 	font-family: var(--primary-font);
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	line-height: 1.7;
 	margin: 0;
 	padding: 0;
@@ -3797,7 +3797,7 @@ p {
 ul,
 ol {
 	font-family: var(--secondary-font);
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	line-height: 3rem;
 	padding-left: 3rem;
 	margin-bottom: 0;
@@ -4765,13 +4765,13 @@ h4,
 
 	h4,
 	.h4 {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 	}
 }
 
 h5,
 .h5 {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	line-height: 1.6;
 }
 
@@ -4791,7 +4791,7 @@ h6,
 
 p {
 	font-family: var(--secondary-font);
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 3rem;
     color: var(--grey-dark-one);
     font-weight: 300;
@@ -4828,7 +4828,7 @@ li.small {
 	}
 
 	p.big {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 	}
 
 	p.mid {
@@ -4872,7 +4872,7 @@ li.small {
 }
 
 .axil-title__small {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	line-height: 3rem;
 }
 
@@ -6418,7 +6418,7 @@ strong {
 
 .navbar-search .navbar-search-btn i,
 .navbar-search .navbar-search-btn span {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	font-weight: 400;
 	color: var(--grey-light-one);
 	-webkit-transition: all 0.3s;
@@ -6505,7 +6505,7 @@ strong {
 .side-nav-toggler span {
 	position: relative;
 	display: block;
-	width: 1.8rem;
+	width: 1.6rem;
 	height: 0.2rem;
 	background: #fff;
 	cursor: pointer;
@@ -7502,12 +7502,12 @@ strong {
 
 @media (min-width: 1028px) {
 	.axil-latest-post .axil-post-title-sm {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		line-height: 1.4;
 	}
 
 	.axil-latest-post .axil-post-title-sponsors-sm {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		line-height: 1.4;
 	}
 
@@ -7811,7 +7811,7 @@ strong {
 }
 
 .content-block .media-caption .axil-post-title {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	line-height: 3rem;
 	color: #fff;
 	margin-bottom: 0;
@@ -7821,7 +7821,7 @@ strong {
 	-webkit-box-orient: vertical;
 }
 .content-block .media-caption .axil-post-title-sponsors {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	line-height: 3rem;
 	color: #fff;
 	margin-bottom: 0;
@@ -9310,7 +9310,7 @@ blockquote p::before,
 */
 
 .about-author h3 {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	line-height: 3rem;
 	margin-bottom: 0.5rem;
 }
@@ -9327,10 +9327,11 @@ blockquote p::before,
 }
 
 .about-author p {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	line-height: 2.8rem;
 	color: var(--grey-dark-three);
 	margin-bottom: 2rem;
+	font-family: var(--primary-font);
 }
 
 @media (max-width: 767px) {
@@ -9499,7 +9500,7 @@ blockquote p::before,
 }
 
 .post-navigation-wrapper h3 {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	line-height: 3rem;
 	text-align: left;
 	margin: 1rem 0 0;
@@ -9518,7 +9519,7 @@ blockquote p::before,
 }
 
 .post-shares .title {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	line-height: 2.2rem;
 	color: var(--grey-dark-one);
 	font-weight: var(--p-bold);
@@ -9631,7 +9632,7 @@ blockquote p::before,
 }
 
 .post-shares li a i {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	margin-right: 1rem;
 	position: relative;
 	top: -0.1rem;
@@ -9992,7 +9993,7 @@ ul.gallery img {
 .side-nav .side-nav-search-btn {
 	position: absolute;
 	right: 0;
-	bottom: 1.8rem;
+	bottom: 1.6rem;
 	border: none;
 	background: transparent;
 	padding: 0;
@@ -10551,11 +10552,11 @@ ul.gallery img {
 
 @media (max-width: 991px) {
 	.axil-img-container .media-body__big .axil-post-title {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		line-height: 2.8rem;
 	}
 	.axil-img-container .media-body__big .axil-post-title-sponsors {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		line-height: 2.8rem;
 	}
 }
@@ -10725,7 +10726,7 @@ ul.gallery img {
 	}
 
 	.axil-position-block .axil-position-title {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		line-height: 3rem;
 		margin-bottom: 1rem;
 	}
@@ -11146,7 +11147,7 @@ address .tel i {
 }
 
 .widget-title h3 {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	line-height: 3rem;
 	margin-bottom: 0;
 }
@@ -11328,7 +11329,7 @@ address .tel i {
 }
 
 .social-share-list-wrapper li i {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 }
 
 .social-share-list-wrapper li .counts {
