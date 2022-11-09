@@ -3740,7 +3740,7 @@ body {
 	line-height: 1.7;
 	margin: 0;
 	padding: 0;
-	color: var(--grey-dark-two);
+	color: var(--grey-dark-one);
 }
 
 ::-moz-selection {
@@ -3851,7 +3851,7 @@ a:hover {
 }
 
 .sponsoredHeading:hover {
-	color: var(--grey-dark-two);
+	color: var(--grey-dark-one);
 }
 
 .sponsoredLink {
@@ -3859,7 +3859,7 @@ a:hover {
 }
 
 .sponsoredLink:hover {
-	color: var(--grey-dark-two);
+	color: var(--grey-dark-one);
 }
 
 @media (min-width: 1599px) {
@@ -4271,7 +4271,7 @@ figure {
 }
 
 .grey-dark-two {
-	color: var(--grey-dark-two);
+	color: var(--grey-dark-one);
 }
 
 .grey-dark-three {
@@ -4279,7 +4279,7 @@ figure {
 }
 
 .grey-dark-four {
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 }
 
 .grey-dark-five {
@@ -4291,7 +4291,7 @@ figure {
 }
 
 .grey-dark-seven {
-	color: var(--grey-dark-seven);
+	color: var(--grey-dark-one);
 }
 
 .grey-dark-eight {
@@ -4447,7 +4447,7 @@ figure {
 }
 
 .bg-grey-dark-two {
-	background-color: var(--grey-dark-two);
+	background-color: var(--grey-dark-one);
 }
 
 .bg-grey-dark-three {
@@ -4455,7 +4455,7 @@ figure {
 }
 
 .bg-grey-dark-four {
-	background-color: var(--grey-dark-four);
+	background-color: var(--grey-dark-five);
 }
 
 .bg-grey-dark-five {
@@ -4467,7 +4467,7 @@ figure {
 }
 
 .bg-grey-dark-seven {
-	background-color: var(--grey-dark-seven);
+	background-color: var(--grey-dark-one);
 }
 
 .bg-grey-dark-eight {
@@ -4793,7 +4793,7 @@ p {
 	font-family: var(--secondary-font);
     font-size: 1.8rem;
     line-height: 3rem;
-    color: var(--grey-dark-two);
+    color: var(--grey-dark-one);
     font-weight: 300;
 	letter-spacing: 0.01rem;
 }
@@ -4805,21 +4805,21 @@ p.big {
 p.mid {
 	font-size: 1.6rem;
 	line-height: 2.8rem;
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 }
 
 p.small {
 	font-size: 1.3rem;
 	line-height: 2rem;
 	margin-top:10px;
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 }
 
 li.small {
 	font-size: 1.3rem;
 	line-height: 1.5rem;
 	margin-top:10px;
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 }
 
 @media (max-width: 991px) {
@@ -4844,7 +4844,7 @@ li.small {
 .axil-title {
 	font-size: 3.2rem;
 	line-height: 4.2rem;
-	color: var(--grey-dark-seven);
+	color: var(--grey-dark-one);
 }
 
 @media (max-width: 991px) {
@@ -5049,7 +5049,7 @@ address,
 }
 
 .btn.btn-secondary.btn-nofill {
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 }
 
 .btn.btn-nofill {
@@ -5086,7 +5086,7 @@ address,
 	font-family: var(--secondary-font);
 	font-size: 1.4rem;
 	line-height: 2.2rem;
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 	font-weight: var(--p-semi-bold);
 	text-transform: uppercase;
 	-webkit-transition: all 0.5s ease-in-out;
@@ -5211,7 +5211,7 @@ address,
 }
 
 .cat-btn.btn-secondary.btn-nofill {
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 }
 
 .cat-btn.btn-nofill {
@@ -5396,7 +5396,7 @@ span.video-play-btn {
 
 .post-details p {
  font-family: var(--primary-font);
- color:var(--grey-dark-four);
+ color:var(--grey-dark-five);
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -5494,31 +5494,31 @@ span.video-play-btn {
 
 /*--Forms--*/
 ::-webkit-input-placeholder {
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 	opacity: 1;
 }
 
 :-ms-input-placeholder {
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 	opacity: 1;
 }
 
 ::-ms-input-placeholder {
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 	opacity: 1;
 }
 
 ::placeholder {
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 	opacity: 1;
 }
 
 :-ms-input-placeholder {
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 }
 
 ::-ms-input-placeholder {
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 }
 
 input[type="text"],
@@ -5601,7 +5601,7 @@ label {
 	left: 0;
 	font-size: 1.4rem;
 	line-height: 2.2rem;
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 	padding: 0 1rem;
 	margin-bottom: 0;
 	-webkit-transition: all 0.2s;
@@ -5983,7 +5983,7 @@ input[type="radio"]+label::after {
 .post-details-sponsors p {
 	font-family: var(--primary-font);
 	font-weight: 300;
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 }
 
 .post-details-sponsors ul {
@@ -5996,7 +5996,7 @@ input[type="radio"]+label::after {
 
 .post-details-sponsors ol li {
 	margin-bottom: 3rem;
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 	font-style: var(--primary-font);
 }
 
@@ -6839,7 +6839,7 @@ strong {
 .breadcrumb a {
 	font-size: 1.4rem;
 	line-height: 2.2rem;
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 }
 
 .breadcrumb li.active,
@@ -6855,7 +6855,7 @@ strong {
 
 .breadcrumb-item+.breadcrumb-item::before {
 	padding: 0 1rem;
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 }
 
 /*--Shapes--*/
@@ -7110,7 +7110,7 @@ strong {
 .post-block__small .post-metas ul {
 	font-size: 1rem;
 	line-height: 1.2rem;
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 	font-family: var(--secondary-font);
 }
 
@@ -7237,7 +7237,7 @@ strong {
 	font-family: var(--secondary-font);
 	font-size: 1.2rem;
 	line-height: 2.1rem;
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 	font-weight: var(--p-light);
 	margin: 0;
 }
@@ -7277,7 +7277,7 @@ strong {
 .banner-post-metas li {
 	font-size: 1.4rem;
 	line-height: 2.1rem;
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 	margin-bottom: 0;
 }
 
@@ -7344,7 +7344,7 @@ strong {
 	line-height: 1.4;
 	margin-top:1rem;
 	margin-bottom: 1rem;
-	color:var(--grey-dark-seven);
+	color:var(--grey-dark-one);
 }
 
 .axil-latest-post .axil-post-title-sponsors {
@@ -7356,7 +7356,7 @@ strong {
 .axil-latest-post .axil-post-title-sm {
 	font-size: 2rem;
 	line-height: 1.4;
-	color:var(--grey-dark-seven);
+	color:var(--grey-dark-one);
 }
 .axil-latest-post .axil-post-title-sm-sponsors {
 	font-size: 2rem;
@@ -7376,7 +7376,7 @@ strong {
 .post-block .axil-post-title-sm {
 	font-size: 2rem;
 	line-height: 1.4;
-	color:var(--grey-dark-seven);
+	color:var(--grey-dark-one);
 }
 
 .post-block .axil-post-title-sm-sponsors {
@@ -7910,7 +7910,7 @@ strong {
 }
 
 .weekly-newsletter p {
-	color: var(--grey-dark-two);
+	color: var(--grey-dark-one);
 }
 
 @media (max-width: 991px) {
@@ -8016,7 +8016,7 @@ strong {
 	-ms-flex-align: center;
 	align-items: center;
 	height: 45rem;
-	background-color: var(--grey-dark-two);
+	background-color: var(--grey-dark-one);
 }
 
 .banner__single-hero .post-title {
@@ -8043,7 +8043,7 @@ strong {
 	justify-content: flex-end;
 	height: calc(100vh - 19.2rem);
 	min-height: 70rem;
-	background-color: var(--grey-dark-two);
+	background-color: var(--grey-dark-one);
 }
 
 @media (max-width: 991px) {
@@ -9042,7 +9042,7 @@ article ul {
 article li {
 	margin-bottom: 1rem;
 	font-family: var(--primary-font);
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 	font-weight: 300;
 }
 
@@ -9055,7 +9055,7 @@ article li {
 	margin: 0;
 	padding: 0;
 	font-family: var(--primary-font);
-	color: var(--grey-dark-seven);
+	color: var(--grey-dark-one);
 }
 
 .post-details h3 {
@@ -9069,7 +9069,7 @@ article li {
 	line-height: 3.6rem;
 	margin: 5rem 0 3rem;
 	font-family: var(--primary-font);
-	color: var(--grey-dark-seven);
+	color: var(--grey-dark-one);
 }
 
 
@@ -9122,7 +9122,7 @@ figcaption {
 	font-style: italic;
 	font-size: 1.5rem;
 	line-height: 2.5rem;
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 	margin: 2rem 0 0;
 	padding-bottom: 2rem;
 	border-bottom: solid var(--grey-light-two) 0.5px;
@@ -9599,7 +9599,7 @@ blockquote p::before,
 }
 
 .post-shares li a.btn-secondary.btn-nofill {
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 }
 
 .post-shares li a.btn-nofill {
@@ -10789,7 +10789,7 @@ address .tel {
 	display: block;
 	font-size: 1.6rem;
 	line-height: 2.8rem;
-	color: var(--grey-dark-two);
+	color: var(--grey-dark-one);
 	margin-bottom: 1.5rem;
 	position: relative;
 	display: inline;
@@ -11525,7 +11525,7 @@ address .tel i {
 	font-family: var(--secondary-font);
 	font-size: 1.4rem;
 	line-height: 2rem;
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 	font-weight: var(--s-medium);
 	padding: 0.6rem 1.3rem;
 	border: 0.2rem solid var(--grey-light-one);
@@ -11584,7 +11584,7 @@ address .tel i {
 
 .community-insights {
 	font-size: 1.1rem;
-	color: var(--grey-dark-four);
+	color: var(--grey-dark-five);
 }
 
 @media (min-width: 767px) {
