@@ -4813,6 +4813,7 @@ p.small {
 	line-height: 2rem;
 	margin-top:10px;
 	color: var(--grey-dark-five);
+	font-weight: 300;
 }
 
 li.small {
