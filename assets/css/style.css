@@ -251,6 +251,7 @@ Date Created: July 26, 2019
 :root {
 	--primary-font: 'Merriweather', serif;
 	--secondary-font: 'Merriweather Sans', sans-serif;
+    --extra-font: 'Roboto', sans-serif;
 	--font-awesome: 'Font Awesome 5 Pro';
 	--primary-color: #074B8D;
 	--secondary-color: #3E71E2;
@@ -3796,7 +3797,7 @@ p {
 
 ul,
 ol {
-	font-family: var(--secondary-font);
+	font-family: var(--extra-font);
 	font-size: 1.6rem;
 	line-height: 3rem;
 	padding-left: 3rem;
