@@ -4695,7 +4695,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-	font-family: var(--secondary-font);
+	font-family: 'Roboto', sans-serif;
 	color: var(--grey-dark-one);
 	font-weight: var(--p-bold);
 	line-height: 1.4;
