@@ -3878,6 +3878,10 @@ figure {
 	padding: 0;
 }
 
+.business-profile p {
+	font-family: 'Roboto', sans-serif;
+}
+
 @media (max-width: 991px) {
 	figure img {
 		width: 100%;
